@@ -1,0 +1,14 @@
+D:\Code.Giaolang\.NET\Session01-HelloWorld\HappyNewYear\bin\Debug\net8.0\HappyNewYear.exe
+D:\Code.Giaolang\.NET\Session01-HelloWorld\HappyNewYear\bin\Debug\net8.0\HappyNewYear.deps.json
+D:\Code.Giaolang\.NET\Session01-HelloWorld\HappyNewYear\bin\Debug\net8.0\HappyNewYear.runtimeconfig.json
+D:\Code.Giaolang\.NET\Session01-HelloWorld\HappyNewYear\bin\Debug\net8.0\HappyNewYear.dll
+D:\Code.Giaolang\.NET\Session01-HelloWorld\HappyNewYear\bin\Debug\net8.0\HappyNewYear.pdb
+D:\Code.Giaolang\.NET\Session01-HelloWorld\HappyNewYear\obj\Debug\net8.0\HappyNewYear.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code.Giaolang\.NET\Session01-HelloWorld\HappyNewYear\obj\Debug\net8.0\HappyNewYear.AssemblyInfoInputs.cache
+D:\Code.Giaolang\.NET\Session01-HelloWorld\HappyNewYear\obj\Debug\net8.0\HappyNewYear.AssemblyInfo.cs
+D:\Code.Giaolang\.NET\Session01-HelloWorld\HappyNewYear\obj\Debug\net8.0\HappyNewYear.csproj.CoreCompileInputs.cache
+D:\Code.Giaolang\.NET\Session01-HelloWorld\HappyNewYear\obj\Debug\net8.0\HappyNewYear.dll
+D:\Code.Giaolang\.NET\Session01-HelloWorld\HappyNewYear\obj\Debug\net8.0\refint\HappyNewYear.dll
+D:\Code.Giaolang\.NET\Session01-HelloWorld\HappyNewYear\obj\Debug\net8.0\HappyNewYear.pdb
+D:\Code.Giaolang\.NET\Session01-HelloWorld\HappyNewYear\obj\Debug\net8.0\HappyNewYear.genruntimeconfig.cache
+D:\Code.Giaolang\.NET\Session01-HelloWorld\HappyNewYear\obj\Debug\net8.0\ref\HappyNewYear.dll
