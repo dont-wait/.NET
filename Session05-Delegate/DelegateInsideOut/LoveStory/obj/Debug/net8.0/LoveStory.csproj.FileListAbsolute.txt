@@ -1,0 +1,15 @@
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\LoveStory\bin\Debug\net8.0\LoveStory.exe
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\LoveStory\bin\Debug\net8.0\LoveStory.deps.json
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\LoveStory\bin\Debug\net8.0\LoveStory.runtimeconfig.json
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\LoveStory\bin\Debug\net8.0\LoveStory.dll
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\LoveStory\bin\Debug\net8.0\LoveStory.pdb
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\LoveStory\obj\Debug\net8.0\LoveStory.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\LoveStory\obj\Debug\net8.0\LoveStory.AssemblyInfoInputs.cache
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\LoveStory\obj\Debug\net8.0\LoveStory.AssemblyInfo.cs
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\LoveStory\obj\Debug\net8.0\LoveStory.csproj.CoreCompileInputs.cache
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\LoveStory\obj\Debug\net8.0\LoveStory.sourcelink.json
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\LoveStory\obj\Debug\net8.0\LoveStory.dll
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\LoveStory\obj\Debug\net8.0\refint\LoveStory.dll
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\LoveStory\obj\Debug\net8.0\LoveStory.pdb
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\LoveStory\obj\Debug\net8.0\LoveStory.genruntimeconfig.cache
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\LoveStory\obj\Debug\net8.0\ref\LoveStory.dll
