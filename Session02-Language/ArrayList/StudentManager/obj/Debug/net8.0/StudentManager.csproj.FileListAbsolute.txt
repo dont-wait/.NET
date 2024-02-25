@@ -1,0 +1,15 @@
+D:\Code.Giaolang\CSharp\Session02-Language\ArrayList\StudentManager\bin\Debug\net8.0\StudentManager.exe
+D:\Code.Giaolang\CSharp\Session02-Language\ArrayList\StudentManager\bin\Debug\net8.0\StudentManager.deps.json
+D:\Code.Giaolang\CSharp\Session02-Language\ArrayList\StudentManager\bin\Debug\net8.0\StudentManager.runtimeconfig.json
+D:\Code.Giaolang\CSharp\Session02-Language\ArrayList\StudentManager\bin\Debug\net8.0\StudentManager.dll
+D:\Code.Giaolang\CSharp\Session02-Language\ArrayList\StudentManager\bin\Debug\net8.0\StudentManager.pdb
+D:\Code.Giaolang\CSharp\Session02-Language\ArrayList\StudentManager\obj\Debug\net8.0\StudentManager.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code.Giaolang\CSharp\Session02-Language\ArrayList\StudentManager\obj\Debug\net8.0\StudentManager.AssemblyInfoInputs.cache
+D:\Code.Giaolang\CSharp\Session02-Language\ArrayList\StudentManager\obj\Debug\net8.0\StudentManager.AssemblyInfo.cs
+D:\Code.Giaolang\CSharp\Session02-Language\ArrayList\StudentManager\obj\Debug\net8.0\StudentManager.csproj.CoreCompileInputs.cache
+D:\Code.Giaolang\CSharp\Session02-Language\ArrayList\StudentManager\obj\Debug\net8.0\StudentManager.sourcelink.json
+D:\Code.Giaolang\CSharp\Session02-Language\ArrayList\StudentManager\obj\Debug\net8.0\StudentManager.dll
+D:\Code.Giaolang\CSharp\Session02-Language\ArrayList\StudentManager\obj\Debug\net8.0\refint\StudentManager.dll
+D:\Code.Giaolang\CSharp\Session02-Language\ArrayList\StudentManager\obj\Debug\net8.0\StudentManager.pdb
+D:\Code.Giaolang\CSharp\Session02-Language\ArrayList\StudentManager\obj\Debug\net8.0\StudentManager.genruntimeconfig.cache
+D:\Code.Giaolang\CSharp\Session02-Language\ArrayList\StudentManager\obj\Debug\net8.0\ref\StudentManager.dll

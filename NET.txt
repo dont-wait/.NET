@@ -44,7 +44,11 @@ NHIỀU HỆ ĐIỀU HÀNH - CROSS PLATFORM
 				   HỢP NHẤT 2 THẰNG LẠI, NHẢY CÓC VERSION THÀNH .NET 5.X
 										.NET 6.X SỐ CHẴN LTS - LONG TERM SUPPORT
 										.NET 7.X
-										.NET 8.X
+>>>>>	APP HỖ TRỢ/CHẠY ĐA NỀN (HỆ ĐIỀU HÀNH + PHẦN CỨNG CHẠY TRÊN)									.NET 8.X
+					WINDOWS CHẠY TRÊN CPU ARM, INTEL, AMD
+					MAC			    ARM, M1,...
+	.DLL CHẠY ĐC CẢ WINS, LINUS, MÀ CODE KO VIẾT LẠI, KO CẦN VIẾT LẠI CÁI FILE .CS (.JAVA) - SOURCE CODE
+           "MACHINE LIKE" -> "WRITE ONCE, RUN ANY WHERE"
 .NET SDK: BỘ ĐỒ CHƠI LẬP TRÌNH DÀNH CHO DÂN DEV, VIẾT APP THEO CÔNG NGHỆ .NET, VERSION 8. LATEST										
 * KHI CÀI .NET SDK THÌ TA SẼ CÓ GÌ TRONG TAY
 - SDK, C:\PROGRAM FILES\DOTNET\SDK\VERSION 6 7 8
@@ -61,5 +65,6 @@ DÙNG NNLT VIẾT RA SOURCE CODE/KỊCH BẢN CÂU LỆNH 			APP CONSOLE	WINDOW 
 										
 									RUNTIME		RUNTIME	RUNTIME
 								       OS,OS,OS		OS,OS,OS	OS,OS,OS
+================================================================================================================
 
 	
