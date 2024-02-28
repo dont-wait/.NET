@@ -1,0 +1,184 @@
+=================================================================================================
+IV. CÁCH THỂ HIỆN, CÁCH ĐỊNH NGHĨA RA DATA TYPE CHO NHÓM DỮ LIỆU PHÚC TẠP {.....}  {...} void F() {}
+1. DATA TYPE DỮ LIỆU ĐƠN GIẢN
+* DATA TYPE: DANH TỪ CHUNG, LÀ TÊN GỌI CHUNG CHO 1 NHÓM DỮ LIỆU, THÔNG TIN ĐƠN GIẢN MÀ ĐỒNG DẠNG, 
+CÙNG HÌNH DẠNG/FORMAT
+* int/long: 5 10 15 20 100 500 -5... (NGUYÊN CON, KO LẺ MIẾNG)
+* float/double: 3.14 9.8 10% 3/4... (CÓ LẺ MIẾNG) 
+
+2. DATA TYPE DỮ LIỆU PHỨC TẠP - KO PHẢI LÀ HÀM, MÀ LÀ ĐỐI TUỌNG NÀO ĐÓ CÓ NHIỀU INFO
+* DATA TYPE: DANH TỪ CHUNG, LÀ TÊN GỌI CHUNG CHO 1 NHÓM DỮ LIỆU, THÔNG TIN ĐƠN GIẢN MÀ ĐỒNG DẠNG, 
+CÙNG HÌNH DẠNG/FORMAT
+* Person: {Tên..., Ngày sinh..., Nơi sinh...} {NGUYỄN THANH TÙNG, 1994, THÁI BÌNH...}
+* Singer: {Tên..., Ngày sinh..., Nơi sinh..., Nick: } {NGUYỄN THANH TÙNG, 1994, THÁI BÌNH, SƠN TÙNG M-TP}
+* Player, Footballer: {Tên..., Ngày sinh..., Nơi sinh..., Nick..., Number..., Goals..., CLB..., Awards...}
+				{Messi, 1994,...}
+Person, Singer, Player: nhóm người, nhóm đối tượng có nhiều info => gọi tên khác là ENTITY (DATABASE)
+															    CLASS    (LẬP TRÌNH)
+															    DATA TYPE: DẠNG DỮ LIỆU			
+Class: sự phân nhóm, phân hạng
+>>>> CODE ĐỂ THỂ HIỆN Ý TƯỞNG LƯU TRỮ VÀ XỬ LÍ CÁC INFO NGOÀI ĐỜI BẰNG MÁY TÍNH (ABSTRACTION - TRỪU TƯỢNG)
+HÓA - BIỂ DIỄN INFO NGOÀI ĐỜI THỰC QUA MÁY TÍNH, PERSON NGOÀI ĐỜI -> CLASS TRONG OOP)
+public class Person { //Java
+   private String id;
+   private String name;
+  private int yob;
+}
+//DATA TYPE LÀ TÊN CHUNG/DANH TỪ CHUNG CHO RẤT NHIỀU OBJECT PHỨC TẠP {...} NGOÀI KIA, GỒM BẠN, TÔI
+public class Person 			public class Person
+{ //C#					{
+     private string _id;				public string Id { get; set; } //Id có đc set() public???
+     private string _name;			public string Name { get; set; }
+     private int _yob				public int Yob { get; set; }
+     ...						...
+}						}
+
+//TẠO RA DỮ LIỆU -> BIẾN ĐI KÈM LÀ DANH TỪ RIÊNG, TÊN TẮT, NICK NAME CHO 1 OBJECT THẬT NGOÀI KIA
+//Person an  =	{XXX, AN, 2003, HCM,  ...}
+Person an = new Person(...); //Java
+Person an = new Person(...){...}; //C#: object initializer - tạo object, tạo value = dùng hàm Set(...)
+
+Data	    var    value
+vietsub: X là tên gọi chung/danh từ chung cho 1 nhóm hành động bề ngoài: ko nhận đầu vào, ko trả ra gì cả,
+chỉ xử lí gì đó bên trong {...}
+
+NGẦM TRONG THỂ HIỆN CODE, X LÀ 1 CLASS, 1 NHÓM PHỨC TẠP
+DATA TYPE CHO NHÓM PHỨC TẠP, TÊN NHÓM PHỨC TẠP THÌ CÒN GỌI LÀ CLASS, CLASS PERSON, CLASS PET, CLASS
+RECTANGLE,...
+1
+2
+3
+4
+-----
+int
+2.2 DATA TYPE DỮ LIỆU PHỨC TẠP - LÀ QUÁ TR$ỜI ÁC LOẠI HÀM,
+								  HÀM Ó:       ??? F_NAME(???) {...}
+								  - TÊN HÀM
+							          - CÓ TRẢ VỀ GIÁ TRỊ HAY KO
+								 - CÓ ĐẦU VÀO HAY KO
+								 - CODE BÊN TRONG HÀM ĐỂ XỬ LÍ INFO NÓI CHUNG {...}
+* DATA TYPE: DANH TỪ CHUNG, LÀ TÊN GỌI CHUNG CHO 1 NHÓM DỮ LIỆU, THÔNG TIN ĐƠN GIẢN MÀ ĐỒNG DẠNG, 
+CÙNG HÌNH DẠNG/FORMAT
+
+void SayHello() {...}
+void NhanEM() {...}
+void TellHer() {...}
+-----------------------------
+delegate void X();: >>>>> X LÀ 1 CLASS NHƯ STYLE PERSON, DOG, CAT, CAR, PET, LECTURER, DOCTER, USER,...
+
+public class X [void X()] Delegate		public class Person
+{									{
+	_fName/./tên hàm cần lưu					Id, Name, Yob...
+	//vì X là tên chung cho nhiều hàm			//Person đại diện cho nhiều công dân	
+	//nên X cần có chỗ để lưu tên hàm			//Person phải có chỗ để lưu info công dân
+	
+	//CONSTRUCTOR - PHỄU ĐỔ INFO BÊN NGOÀI VÀO BÊN TRONG CÁI CLASS/KHUÔN
+	public X(tên hàm-muốn-lưu-trữ)								public Student(id, name, yob)
+	{												{
+		-fName = t								        		Id = id;...
+	}												}			
+													
+	
+	//GET SET TRUYÊN THỐNG JAVE 						HOẶC VIẾT TẮT THEO STYLE PROPERTY GET; SET; CỦA C#
+	//						  LOMBOK (3RD PARTY)												
+	
+	public void Invoke()	//hàm có sẵn khi tạo class Delegate X, hoặc tạo theo style  nhanh, giống kiểu ToString()
+
+	{
+		_fName() //tên hàm đc lưu trữ gửi vào sẽ đc run = cách thêm dấu() để run
+	}
+
+}									    }
+======================================
+>>>>>>>>> ĐẶC BIỆT CHO CÁC CLASS MÀ ĐẠI DIỆN CHO 1 NHÓM HÀM NÀO ĐÓ, TA KO CẦN MẤT SỨC VIẾT THEO STYLE
+CLASS TRUYỀN THỐNG
+delegate void X() LÀ ĐỦ GỒI, KO CẦN CODE THEO STYLE DÀI DÒNG CLASS TRUYỀN THỐNG
+				LÍ DO: TA CHỈ CẦN LƯU CÁI TÊN HÀM, DO TA ĐẠI DIỆN CHO 1 ĐÁM HÀM CÙNG STYLE
+					     ĐẠI DIỆN HÀM NÀO THÌ CHỈ CẦN NÓI TÊN HÀM LÀ ĐỦ, QUA TÊN HÀM THÌ MÒ VÀO CHI TIẾT XỬ LÍ
+					    CỦA HÀM Ở {...}. CODE NẾU CÓ CŨNG NGẮN, KO CẦN THIẾT public class ... {...}
+
+********** CODE NGẮN GỌN CHO CÁI CLASS ĐẠI DIỆN CHO NHÓM HÀM!!!!!!!!!!!!!!!!!!
+
+delegate STYLE NHÓM HÀM Ở ĐÂY KÈM CÁI TÊN CHUNG LÀ ĐỦ RỒI
+delegate void X()	  		//X: tên chung cho nhómhàm ko vào ko ra
+delegate void Y(int)		//Y: tên chung cho nhóm hàm nhận vào 1 con int và ko ra
+delegate void YY(int, int)	//YY: tên chung cho nhóm hàm nhận vào 2 con int, ko ra
+delegate int Z()			//Z: tên chung cho nhóm hàm ko vào nhưng trả ra
+delegate int ZZ(int)		//ZZ: tên chung cho nhóm hàm có 1 vào, trả ra
+delegate int NE(int, float)	//NE: tên chung cho nhóm hàm có 2 vào int, float, có trả ra
+
+NHÓM HÀM NHIỀU - CLASS NHIỀU
+CX NHƯ NHIỀU CLASS NGOÀI KIA: PERSON, CAR, DOG, CAT, PET, RECTANGLE, CIRLE, TRIANGLE, FILE, STRING,...
+
+3. XÀI DATA TYPE THÌ SAO???
+* KHAI BÁO BIẾN > THUỘC DATA TYPE > GÁN VALUE = NEW(...) {...}
+int 	      x = 10;										//đưa con số cho tao, số 10, tao gọi nó là x
+Student x = new Student(...) {...};						//đưa info sv đây cho tao, tao gọi hẳn là s, an, bình,...
+X		f = new X(tên-hàm-cụ-thể-nào-đó có ở đâu đó);	//đưa tên hàm vào cho tao, và gọi là f
+	        f = new X(SayHello);
+
+KỂ TỪ NAY VỀ SAU, CÁI HÀM CỤ THỂ NÀO ĐÓ ví dụ HÀM SayHello Đ GỌI TÊN LÀ F
+
+F  LÀ  NICK NAME CỦA HÀM SAYHELLO Ở ĐOẠN GHI CHÚ TRÊN!!!
+
+4. DELEGATE CLASS  THÊM CÓ  MỘT TRÒ  ĐẶC BIỆT - NÓ  CÓ KHẢ NĂNG LƯU NHIỀU TÊN HÀM CÙNG 1 LÚC
+   MULTICAST DELEGATE
+public class X [void X()] Delegate		
+{									
+	_fName/./tên hàm cần lưu					
+	//vì X là tên chung cho nhiều hàm	
+	List<> danh-sách-các-tên-hàm-cùng-style
+	[] mảng -các-tên-hàm-cùng-style;
+
+	//TÙY LÚC MÌNH GÁN TÊN HÀM VÀO BIẾN F DELEGATE THÌ SẼ XÀI ĐƠN HÀM, HAY ĐA HÀM CÙNG
+	
+	public X(tên-ham-mun-luu)
+	{
+	-fName = tên-hàm-muốn-lưu-trữ;
+	}	
+	public void Invoke()
+	{
+		_fName()
+		List<> các hàm đc gọi = cách thêm() trên từng tên hàm để run()
+	}
+}
+
+HÀM DẤU += ĐỂ GHÉP THÊM TÊN CÁC HÀM VÀO DANH SÁCH ĐẠI DIỆN!!!()
+//KĨ THUẬT OVERRIDE CÁC OPERATOR, ĐỊNH NGHĨA LẠI CÁC DẤU + - * / THAY VÌ LÀM TRONG TOÁN HỌC
+//GIỜ TOÁN TRONG OBJECT!!!
+
+===================================================
+REVIEW NHANH LẠI VỀ DELEGATE - ỦY NHIỆM, ỦY QUYỀN, TRAO QUYỀN, ĐẠI DIỆN, SỨ GIẢ, 1 PHIÊN BẢN CLONE, 1 NICK NAME KHÁC,
+1 CÁCH GỌI TÊN KHÁC, MỘT CON TRỎ...
+1. DELEGATE LÀ 1 CLASS NHƯ CÁC CLASS TRUYỀN THỐNG DOG, CAT, PERSON, PRODUCT...
+    DELEGATE LÀ CLASS NAME, LÀ TÊN GỌI CHUNG, DANH TỪ CHUNG ĐẠI DIỆN CHO NHIỀU HÀM CÙNG 1 STYLE NÀO ĐÓ
+    NÓ DÙNG ĐỂ NÓI VỀ 1 TẬP HỢP CÁC HÀM CÙNG STYLE, THÔNG QUA NÓ CÓ THỂ BIỂU DIỄN./THAM CHIẾU/NÓI VỀ CÁC HÀM
+    LÀ TÊN GỌI CHUNG TÊN TẬP HỢP NHÓM HÀM
+
+    X LÀ TÊN GỌI CHO 1 NHÓM HÀM {F1() F2() F3() F4()...}													
+ 2. KHAI BÁO VÀ SỬ DỤNG DELEGATE: BỘ BA ĐÀO, PHỞ, PIANO: DATATYPE 		TÊN-BIẾN 			= VALUE
+														   TÊN DELEGATE		NICK-NAME			1 HÀM CỤ THỂ
+														   					CỦA 1 CÁI HÀM		NÀO ĐÓ ĐC GỌI TÊN MỚI
+
+	delegate void X();
+	X f = new Delegate(tên hàm mình đặt nick là f bên vế trái dấu bằng)
+	X f = new Delegate(TellHer)						void TellHer() {...}
+	   f 				--------------------------------------------> TellHer
+	X f = TellHer;	//viết ngắn gọn, new ngầm
+	   f = NhanEm;	//trỏ vào hàm mới, tại 1 thời điểm biến lưu 1 value
+	   f += SaySweetWords; //f đại diện nhiều thân chủ, nhiều hàm: NhanEm + SaySweetWords;
+						//multicast delegates
+	Gọi hàm:
+		f.Invoke();
+		f();		//f = TellHer => f() cx là TellHer() chạy hàm hoy	
+
+	DELEGATE: LÀ CÁCH ĐẶT TÊN GỌI CHO 1 HÀM KHÁC, 1 HÀM CÓ SẴN CÓ THÊM 1 NICK MÓI, 1 TÊN MÓI
+		F() RUN		CX NHƯ THEO TELLHER() RUN
+		LUẬT SƯ		NÓI X NHƯ THÂN CHỦ NÓI
+
+===========================================================
+BÀI TẬP NÂNG CAO:
+* ĐỘ LẠI CLASS KUKIA ĐỂ TỰ NHIÊN HƠN NX
+- KUKIA CÓ 1 HÀNH ĐỘNG RIÊNG LÀ: TakeMessage(message của ai thì đưa vào đây)
+- KUKIA VẪN CÓ HÀNH ĐỘNG MeetSweatHeart() => run() 2 message kia
+===========================================================

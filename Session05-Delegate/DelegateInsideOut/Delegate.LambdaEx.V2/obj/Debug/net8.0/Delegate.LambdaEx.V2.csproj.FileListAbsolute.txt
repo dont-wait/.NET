@@ -1,0 +1,15 @@
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\Delegate.LambdaEx.V2\bin\Debug\net8.0\Delegate.LambdaEx.V2.exe
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\Delegate.LambdaEx.V2\bin\Debug\net8.0\Delegate.LambdaEx.V2.deps.json
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\Delegate.LambdaEx.V2\bin\Debug\net8.0\Delegate.LambdaEx.V2.runtimeconfig.json
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\Delegate.LambdaEx.V2\bin\Debug\net8.0\Delegate.LambdaEx.V2.dll
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\Delegate.LambdaEx.V2\bin\Debug\net8.0\Delegate.LambdaEx.V2.pdb
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\Delegate.LambdaEx.V2\obj\Debug\net8.0\Delegate.LambdaEx.V2.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\Delegate.LambdaEx.V2\obj\Debug\net8.0\Delegate.LambdaEx.V2.AssemblyInfoInputs.cache
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\Delegate.LambdaEx.V2\obj\Debug\net8.0\Delegate.LambdaEx.V2.AssemblyInfo.cs
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\Delegate.LambdaEx.V2\obj\Debug\net8.0\Delegate.LambdaEx.V2.csproj.CoreCompileInputs.cache
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\Delegate.LambdaEx.V2\obj\Debug\net8.0\Delegate.LambdaEx.V2.sourcelink.json
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\Delegate.LambdaEx.V2\obj\Debug\net8.0\Delegate.LambdaEx.V2.dll
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\Delegate.LambdaEx.V2\obj\Debug\net8.0\refint\Delegate.LambdaEx.V2.dll
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\Delegate.LambdaEx.V2\obj\Debug\net8.0\Delegate.LambdaEx.V2.pdb
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\Delegate.LambdaEx.V2\obj\Debug\net8.0\Delegate.LambdaEx.V2.genruntimeconfig.cache
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\Delegate.LambdaEx.V2\obj\Debug\net8.0\ref\Delegate.LambdaEx.V2.dll

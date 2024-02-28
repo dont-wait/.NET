@@ -1,0 +1,15 @@
+D:\Code.Giaolang\CSharp\Session02-Language\StudentManagerV2\StudentManagerV2\bin\Debug\net8.0\StudentManagerV2.exe
+D:\Code.Giaolang\CSharp\Session02-Language\StudentManagerV2\StudentManagerV2\bin\Debug\net8.0\StudentManagerV2.deps.json
+D:\Code.Giaolang\CSharp\Session02-Language\StudentManagerV2\StudentManagerV2\bin\Debug\net8.0\StudentManagerV2.runtimeconfig.json
+D:\Code.Giaolang\CSharp\Session02-Language\StudentManagerV2\StudentManagerV2\bin\Debug\net8.0\StudentManagerV2.dll
+D:\Code.Giaolang\CSharp\Session02-Language\StudentManagerV2\StudentManagerV2\bin\Debug\net8.0\StudentManagerV2.pdb
+D:\Code.Giaolang\CSharp\Session02-Language\StudentManagerV2\StudentManagerV2\obj\Debug\net8.0\StudentManagerV2.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code.Giaolang\CSharp\Session02-Language\StudentManagerV2\StudentManagerV2\obj\Debug\net8.0\StudentManagerV2.AssemblyInfoInputs.cache
+D:\Code.Giaolang\CSharp\Session02-Language\StudentManagerV2\StudentManagerV2\obj\Debug\net8.0\StudentManagerV2.AssemblyInfo.cs
+D:\Code.Giaolang\CSharp\Session02-Language\StudentManagerV2\StudentManagerV2\obj\Debug\net8.0\StudentManagerV2.csproj.CoreCompileInputs.cache
+D:\Code.Giaolang\CSharp\Session02-Language\StudentManagerV2\StudentManagerV2\obj\Debug\net8.0\StudentManagerV2.sourcelink.json
+D:\Code.Giaolang\CSharp\Session02-Language\StudentManagerV2\StudentManagerV2\obj\Debug\net8.0\StudentManagerV2.dll
+D:\Code.Giaolang\CSharp\Session02-Language\StudentManagerV2\StudentManagerV2\obj\Debug\net8.0\refint\StudentManagerV2.dll
+D:\Code.Giaolang\CSharp\Session02-Language\StudentManagerV2\StudentManagerV2\obj\Debug\net8.0\StudentManagerV2.pdb
+D:\Code.Giaolang\CSharp\Session02-Language\StudentManagerV2\StudentManagerV2\obj\Debug\net8.0\StudentManagerV2.genruntimeconfig.cache
+D:\Code.Giaolang\CSharp\Session02-Language\StudentManagerV2\StudentManagerV2\obj\Debug\net8.0\ref\StudentManagerV2.dll

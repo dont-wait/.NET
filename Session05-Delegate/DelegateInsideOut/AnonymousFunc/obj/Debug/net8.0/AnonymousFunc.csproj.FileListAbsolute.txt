@@ -1,0 +1,15 @@
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\AnonymousFunc\bin\Debug\net8.0\AnonymousFunc.exe
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\AnonymousFunc\bin\Debug\net8.0\AnonymousFunc.deps.json
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\AnonymousFunc\bin\Debug\net8.0\AnonymousFunc.runtimeconfig.json
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\AnonymousFunc\bin\Debug\net8.0\AnonymousFunc.dll
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\AnonymousFunc\bin\Debug\net8.0\AnonymousFunc.pdb
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\AnonymousFunc\obj\Debug\net8.0\AnonymousFunc.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\AnonymousFunc\obj\Debug\net8.0\AnonymousFunc.AssemblyInfoInputs.cache
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\AnonymousFunc\obj\Debug\net8.0\AnonymousFunc.AssemblyInfo.cs
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\AnonymousFunc\obj\Debug\net8.0\AnonymousFunc.csproj.CoreCompileInputs.cache
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\AnonymousFunc\obj\Debug\net8.0\AnonymousFunc.sourcelink.json
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\AnonymousFunc\obj\Debug\net8.0\AnonymousFunc.dll
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\AnonymousFunc\obj\Debug\net8.0\refint\AnonymousFunc.dll
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\AnonymousFunc\obj\Debug\net8.0\AnonymousFunc.pdb
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\AnonymousFunc\obj\Debug\net8.0\AnonymousFunc.genruntimeconfig.cache
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\AnonymousFunc\obj\Debug\net8.0\ref\AnonymousFunc.dll

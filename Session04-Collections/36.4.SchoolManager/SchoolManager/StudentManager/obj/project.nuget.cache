@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "eTEeVRYMLq0+5Zs0LTfXwWZNNef3se/uCG3jlvQx1vn2x/2evYMOj/VVe7d/EI7qAqJS48dN5nojr/0AJh/+kg==",
+  "success": true,
+  "projectFilePath": "D:\\Code.Giaolang\\CSharp\\Session04-Collections\\36.4.SchoolManager\\SchoolManager\\StudentManager\\StudentManager.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Sang\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.26\\microsoft.windowsdesktop.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\Sang\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.26\\microsoft.netcore.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\Sang\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.26\\microsoft.aspnetcore.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\Sang\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.26\\microsoft.netcore.app.host.win-x64.6.0.26.nupkg.sha512"
+  ],
+  "logs": []
+}

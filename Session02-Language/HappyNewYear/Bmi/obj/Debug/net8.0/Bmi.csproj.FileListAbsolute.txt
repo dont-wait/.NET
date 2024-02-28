@@ -1,0 +1,15 @@
+D:\Code.Giaolang\CSharp\Session02-Language\HappyNewYear\Bmi\bin\Debug\net8.0\Bmi.exe
+D:\Code.Giaolang\CSharp\Session02-Language\HappyNewYear\Bmi\bin\Debug\net8.0\Bmi.deps.json
+D:\Code.Giaolang\CSharp\Session02-Language\HappyNewYear\Bmi\bin\Debug\net8.0\Bmi.runtimeconfig.json
+D:\Code.Giaolang\CSharp\Session02-Language\HappyNewYear\Bmi\bin\Debug\net8.0\Bmi.dll
+D:\Code.Giaolang\CSharp\Session02-Language\HappyNewYear\Bmi\bin\Debug\net8.0\Bmi.pdb
+D:\Code.Giaolang\CSharp\Session02-Language\HappyNewYear\Bmi\obj\Debug\net8.0\Bmi.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code.Giaolang\CSharp\Session02-Language\HappyNewYear\Bmi\obj\Debug\net8.0\Bmi.AssemblyInfoInputs.cache
+D:\Code.Giaolang\CSharp\Session02-Language\HappyNewYear\Bmi\obj\Debug\net8.0\Bmi.AssemblyInfo.cs
+D:\Code.Giaolang\CSharp\Session02-Language\HappyNewYear\Bmi\obj\Debug\net8.0\Bmi.csproj.CoreCompileInputs.cache
+D:\Code.Giaolang\CSharp\Session02-Language\HappyNewYear\Bmi\obj\Debug\net8.0\Bmi.sourcelink.json
+D:\Code.Giaolang\CSharp\Session02-Language\HappyNewYear\Bmi\obj\Debug\net8.0\Bmi.dll
+D:\Code.Giaolang\CSharp\Session02-Language\HappyNewYear\Bmi\obj\Debug\net8.0\refint\Bmi.dll
+D:\Code.Giaolang\CSharp\Session02-Language\HappyNewYear\Bmi\obj\Debug\net8.0\Bmi.pdb
+D:\Code.Giaolang\CSharp\Session02-Language\HappyNewYear\Bmi\obj\Debug\net8.0\Bmi.genruntimeconfig.cache
+D:\Code.Giaolang\CSharp\Session02-Language\HappyNewYear\Bmi\obj\Debug\net8.0\ref\Bmi.dll

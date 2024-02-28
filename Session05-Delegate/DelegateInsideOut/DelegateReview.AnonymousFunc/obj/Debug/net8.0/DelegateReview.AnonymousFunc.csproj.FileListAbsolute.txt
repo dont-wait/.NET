@@ -1,0 +1,15 @@
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\DelegateReview.AnonymousFunc\bin\Debug\net8.0\DelegateReview.AnonymousFunc.exe
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\DelegateReview.AnonymousFunc\bin\Debug\net8.0\DelegateReview.AnonymousFunc.deps.json
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\DelegateReview.AnonymousFunc\bin\Debug\net8.0\DelegateReview.AnonymousFunc.runtimeconfig.json
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\DelegateReview.AnonymousFunc\bin\Debug\net8.0\DelegateReview.AnonymousFunc.dll
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\DelegateReview.AnonymousFunc\bin\Debug\net8.0\DelegateReview.AnonymousFunc.pdb
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\DelegateReview.AnonymousFunc\obj\Debug\net8.0\DelegateReview.AnonymousFunc.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\DelegateReview.AnonymousFunc\obj\Debug\net8.0\DelegateReview.AnonymousFunc.AssemblyInfoInputs.cache
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\DelegateReview.AnonymousFunc\obj\Debug\net8.0\DelegateReview.AnonymousFunc.AssemblyInfo.cs
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\DelegateReview.AnonymousFunc\obj\Debug\net8.0\DelegateReview.AnonymousFunc.csproj.CoreCompileInputs.cache
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\DelegateReview.AnonymousFunc\obj\Debug\net8.0\DelegateReview.AnonymousFunc.sourcelink.json
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\DelegateReview.AnonymousFunc\obj\Debug\net8.0\DelegateReview.AnonymousFunc.dll
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\DelegateReview.AnonymousFunc\obj\Debug\net8.0\refint\DelegateReview.AnonymousFunc.dll
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\DelegateReview.AnonymousFunc\obj\Debug\net8.0\DelegateReview.AnonymousFunc.pdb
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\DelegateReview.AnonymousFunc\obj\Debug\net8.0\DelegateReview.AnonymousFunc.genruntimeconfig.cache
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\DelegateReview.AnonymousFunc\obj\Debug\net8.0\ref\DelegateReview.AnonymousFunc.dll

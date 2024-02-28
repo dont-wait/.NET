@@ -1,0 +1,15 @@
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\LambdaExpression\obj\Debug\net8.0\LambdaExpression.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\LambdaExpression\obj\Debug\net8.0\LambdaExpression.AssemblyInfoInputs.cache
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\LambdaExpression\obj\Debug\net8.0\LambdaExpression.AssemblyInfo.cs
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\LambdaExpression\obj\Debug\net8.0\LambdaExpression.csproj.CoreCompileInputs.cache
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\LambdaExpression\obj\Debug\net8.0\LambdaExpression.sourcelink.json
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\LambdaExpression\bin\Debug\net8.0\LambdaExpression.exe
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\LambdaExpression\bin\Debug\net8.0\LambdaExpression.deps.json
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\LambdaExpression\bin\Debug\net8.0\LambdaExpression.runtimeconfig.json
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\LambdaExpression\bin\Debug\net8.0\LambdaExpression.dll
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\LambdaExpression\bin\Debug\net8.0\LambdaExpression.pdb
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\LambdaExpression\obj\Debug\net8.0\LambdaExpression.dll
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\LambdaExpression\obj\Debug\net8.0\refint\LambdaExpression.dll
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\LambdaExpression\obj\Debug\net8.0\LambdaExpression.pdb
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\LambdaExpression\obj\Debug\net8.0\LambdaExpression.genruntimeconfig.cache
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\LambdaExpression\obj\Debug\net8.0\ref\LambdaExpression.dll

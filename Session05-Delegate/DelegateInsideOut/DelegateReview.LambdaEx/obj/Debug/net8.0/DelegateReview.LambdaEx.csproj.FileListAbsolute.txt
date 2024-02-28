@@ -1,0 +1,15 @@
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\DelegateReview.LambdaEx\bin\Debug\net8.0\DelegateReview.LambdaEx.exe
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\DelegateReview.LambdaEx\bin\Debug\net8.0\DelegateReview.LambdaEx.deps.json
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\DelegateReview.LambdaEx\bin\Debug\net8.0\DelegateReview.LambdaEx.runtimeconfig.json
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\DelegateReview.LambdaEx\bin\Debug\net8.0\DelegateReview.LambdaEx.dll
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\DelegateReview.LambdaEx\bin\Debug\net8.0\DelegateReview.LambdaEx.pdb
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\DelegateReview.LambdaEx\obj\Debug\net8.0\DelegateReview.LambdaEx.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\DelegateReview.LambdaEx\obj\Debug\net8.0\DelegateReview.LambdaEx.AssemblyInfoInputs.cache
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\DelegateReview.LambdaEx\obj\Debug\net8.0\DelegateReview.LambdaEx.AssemblyInfo.cs
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\DelegateReview.LambdaEx\obj\Debug\net8.0\DelegateReview.LambdaEx.csproj.CoreCompileInputs.cache
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\DelegateReview.LambdaEx\obj\Debug\net8.0\DelegateReview.LambdaEx.sourcelink.json
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\DelegateReview.LambdaEx\obj\Debug\net8.0\DelegateReview.LambdaEx.dll
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\DelegateReview.LambdaEx\obj\Debug\net8.0\refint\DelegateReview.LambdaEx.dll
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\DelegateReview.LambdaEx\obj\Debug\net8.0\DelegateReview.LambdaEx.pdb
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\DelegateReview.LambdaEx\obj\Debug\net8.0\DelegateReview.LambdaEx.genruntimeconfig.cache
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\DelegateReview.LambdaEx\obj\Debug\net8.0\ref\DelegateReview.LambdaEx.dll

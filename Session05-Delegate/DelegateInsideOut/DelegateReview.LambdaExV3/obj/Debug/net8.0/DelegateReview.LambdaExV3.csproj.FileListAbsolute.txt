@@ -1,0 +1,15 @@
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\DelegateReview.LambdaExV3\bin\Debug\net8.0\DelegateReview.LambdaExV3.exe
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\DelegateReview.LambdaExV3\bin\Debug\net8.0\DelegateReview.LambdaExV3.deps.json
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\DelegateReview.LambdaExV3\bin\Debug\net8.0\DelegateReview.LambdaExV3.runtimeconfig.json
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\DelegateReview.LambdaExV3\bin\Debug\net8.0\DelegateReview.LambdaExV3.dll
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\DelegateReview.LambdaExV3\bin\Debug\net8.0\DelegateReview.LambdaExV3.pdb
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\DelegateReview.LambdaExV3\obj\Debug\net8.0\DelegateReview.LambdaExV3.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\DelegateReview.LambdaExV3\obj\Debug\net8.0\DelegateReview.LambdaExV3.AssemblyInfoInputs.cache
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\DelegateReview.LambdaExV3\obj\Debug\net8.0\DelegateReview.LambdaExV3.AssemblyInfo.cs
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\DelegateReview.LambdaExV3\obj\Debug\net8.0\DelegateReview.LambdaExV3.csproj.CoreCompileInputs.cache
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\DelegateReview.LambdaExV3\obj\Debug\net8.0\DelegateReview.LambdaExV3.sourcelink.json
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\DelegateReview.LambdaExV3\obj\Debug\net8.0\DelegateReview.LambdaExV3.dll
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\DelegateReview.LambdaExV3\obj\Debug\net8.0\refint\DelegateReview.LambdaExV3.dll
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\DelegateReview.LambdaExV3\obj\Debug\net8.0\DelegateReview.LambdaExV3.pdb
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\DelegateReview.LambdaExV3\obj\Debug\net8.0\DelegateReview.LambdaExV3.genruntimeconfig.cache
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\DelegateReview.LambdaExV3\obj\Debug\net8.0\ref\DelegateReview.LambdaExV3.dll

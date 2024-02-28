@@ -1,0 +1,15 @@
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\DelegateIntro\bin\Debug\net8.0\DelegateIntro.exe
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\DelegateIntro\bin\Debug\net8.0\DelegateIntro.deps.json
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\DelegateIntro\bin\Debug\net8.0\DelegateIntro.runtimeconfig.json
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\DelegateIntro\bin\Debug\net8.0\DelegateIntro.dll
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\DelegateIntro\bin\Debug\net8.0\DelegateIntro.pdb
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\DelegateIntro\obj\Debug\net8.0\DelegateIntro.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\DelegateIntro\obj\Debug\net8.0\DelegateIntro.AssemblyInfoInputs.cache
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\DelegateIntro\obj\Debug\net8.0\DelegateIntro.AssemblyInfo.cs
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\DelegateIntro\obj\Debug\net8.0\DelegateIntro.csproj.CoreCompileInputs.cache
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\DelegateIntro\obj\Debug\net8.0\DelegateIntro.sourcelink.json
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\DelegateIntro\obj\Debug\net8.0\DelegateIntro.dll
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\DelegateIntro\obj\Debug\net8.0\refint\DelegateIntro.dll
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\DelegateIntro\obj\Debug\net8.0\DelegateIntro.pdb
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\DelegateIntro\obj\Debug\net8.0\DelegateIntro.genruntimeconfig.cache
+D:\Code.Giaolang\CSharp\Session05-Delegate\DelegateInsideOut\DelegateIntro\obj\Debug\net8.0\ref\DelegateIntro.dll

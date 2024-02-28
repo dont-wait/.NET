@@ -1,0 +1,15 @@
+D:\Code.Giaolang\CSharp\Session05-Delegate\ChuyenTinhTayTu\Delegate\bin\Debug\net8.0\Delegate.exe
+D:\Code.Giaolang\CSharp\Session05-Delegate\ChuyenTinhTayTu\Delegate\bin\Debug\net8.0\Delegate.deps.json
+D:\Code.Giaolang\CSharp\Session05-Delegate\ChuyenTinhTayTu\Delegate\bin\Debug\net8.0\Delegate.runtimeconfig.json
+D:\Code.Giaolang\CSharp\Session05-Delegate\ChuyenTinhTayTu\Delegate\bin\Debug\net8.0\Delegate.dll
+D:\Code.Giaolang\CSharp\Session05-Delegate\ChuyenTinhTayTu\Delegate\bin\Debug\net8.0\Delegate.pdb
+D:\Code.Giaolang\CSharp\Session05-Delegate\ChuyenTinhTayTu\Delegate\obj\Debug\net8.0\Delegate.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code.Giaolang\CSharp\Session05-Delegate\ChuyenTinhTayTu\Delegate\obj\Debug\net8.0\Delegate.AssemblyInfoInputs.cache
+D:\Code.Giaolang\CSharp\Session05-Delegate\ChuyenTinhTayTu\Delegate\obj\Debug\net8.0\Delegate.AssemblyInfo.cs
+D:\Code.Giaolang\CSharp\Session05-Delegate\ChuyenTinhTayTu\Delegate\obj\Debug\net8.0\Delegate.csproj.CoreCompileInputs.cache
+D:\Code.Giaolang\CSharp\Session05-Delegate\ChuyenTinhTayTu\Delegate\obj\Debug\net8.0\Delegate.sourcelink.json
+D:\Code.Giaolang\CSharp\Session05-Delegate\ChuyenTinhTayTu\Delegate\obj\Debug\net8.0\Delegate.dll
+D:\Code.Giaolang\CSharp\Session05-Delegate\ChuyenTinhTayTu\Delegate\obj\Debug\net8.0\refint\Delegate.dll
+D:\Code.Giaolang\CSharp\Session05-Delegate\ChuyenTinhTayTu\Delegate\obj\Debug\net8.0\Delegate.pdb
+D:\Code.Giaolang\CSharp\Session05-Delegate\ChuyenTinhTayTu\Delegate\obj\Debug\net8.0\Delegate.genruntimeconfig.cache
+D:\Code.Giaolang\CSharp\Session05-Delegate\ChuyenTinhTayTu\Delegate\obj\Debug\net8.0\ref\Delegate.dll
