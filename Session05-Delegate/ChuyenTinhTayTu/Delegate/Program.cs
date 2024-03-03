@@ -7,14 +7,10 @@
 
         static void Main(string[] args)
         {
-<<<<<<< HEAD
             X CoGai = TuiVaCoAy;    //người tình đã qua của Ẻm
             CoGai = BanVaCoAy;      //người tình đã qua của Ẻm
             CoGai = KuKiaVaCoAy;    //người mới nhất của Ẻm
             
-=======
-            X CoGai = KuKiaVaCoAy;
->>>>>>> 5987436a64b6111de97aa3e18f1f07344c7ba6c3
             CoGai.Invoke();
 
         }

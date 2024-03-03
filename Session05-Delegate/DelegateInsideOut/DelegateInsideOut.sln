@@ -5,7 +5,6 @@ VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DelegateIntro", "DelegateIntro\DelegateIntro.csproj", "{F08F5B2A-B23C-4F08-ABE2-03D685AA23E4}"
 EndProject
-<<<<<<< HEAD
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoveStory", "LoveStory\LoveStory.csproj", "{7475ACEA-0CC1-4FB1-B5F0-B453F365AC10}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnonymousFunc", "AnonymousFunc\AnonymousFunc.csproj", "{5D50D9D0-D5AC-4A23-8429-C8A9F3369D83}"
@@ -21,13 +20,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegate.LambdaEx.V2", "Delegate.LambdaEx.V2\Delegate.LambdaEx.V2.csproj", "{823A1D92-6998-44AD-B279-388315003C28}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegateReview.LambdaExV3", "DelegateReview.LambdaExV3\DelegateReview.LambdaExV3.csproj", "{A5926C76-3F8C-4BB0-8B1E-5A89DA3689EC}"
-=======
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoveStory", "LoveStory\LoveStory.csproj", "{7475ACEA-0CC1-4FB1-B5F0-B453F365AC10}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnonymousFunc", "AnonymousFunc\AnonymousFunc.csproj", "{5D50D9D0-D5AC-4A23-8429-C8A9F3369D83}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LambdaExpression", "LambdaExpression\LambdaExpression.csproj", "{27D5FCD5-C516-4793-9CB7-33CAD4D44844}"
->>>>>>> 5987436a64b6111de97aa3e18f1f07344c7ba6c3
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,7 +43,6 @@ Global
 		{27D5FCD5-C516-4793-9CB7-33CAD4D44844}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27D5FCD5-C516-4793-9CB7-33CAD4D44844}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27D5FCD5-C516-4793-9CB7-33CAD4D44844}.Release|Any CPU.Build.0 = Release|Any CPU
-<<<<<<< HEAD
 		{7B3A45CD-059F-4190-BFAD-91A6EBA91F75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7B3A45CD-059F-4190-BFAD-91A6EBA91F75}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B3A45CD-059F-4190-BFAD-91A6EBA91F75}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -72,8 +63,6 @@ Global
 		{A5926C76-3F8C-4BB0-8B1E-5A89DA3689EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A5926C76-3F8C-4BB0-8B1E-5A89DA3689EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A5926C76-3F8C-4BB0-8B1E-5A89DA3689EC}.Release|Any CPU.Build.0 = Release|Any CPU
-=======
->>>>>>> 5987436a64b6111de97aa3e18f1f07344c7ba6c3
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

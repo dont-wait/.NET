@@ -23,11 +23,7 @@
             playNumber(3);  //action gián tiếp
 
             //C2: LÀM BIẾG ĐẶT CHỖ 1 HÀM TƯỜNG MINH, VÀO QUÁN KO NGỒI LẤY CAFE HOY
-<<<<<<< HEAD
             //      ON THE GOTAKE AWAY, HỢP ĐỒNG LUẬT SƯ - THÂN CHỦ KO ĐỂ LẠI TÊN
-=======
-            //      TAKE AWAY, HỢP ĐỒNG LUẬT SƯ - THÂN CHỦ KO ĐỂ LẠI TÊN
->>>>>>> 5987436a64b6111de97aa3e18f1f07344c7ba6c3
             //      HÀM VÔ DANH ANONYMOUS FUCTION/METHOD
             playNumber = delegate (int n)
                                         {
