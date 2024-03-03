@@ -181,4 +181,188 @@ BÀI TẬP NÂNG CAO:
 * ĐỘ LẠI CLASS KUKIA ĐỂ TỰ NHIÊN HƠN NX
 - KUKIA CÓ 1 HÀNH ĐỘNG RIÊNG LÀ: TakeMessage(message của ai thì đưa vào đây)
 - KUKIA VẪN CÓ HÀNH ĐỘNG MeetSweatHeart() => run() 2 message kia
+
 ===========================================================
+V.  CÁC BƯỚC, CÔNG THỨC ĐỂ CHƠI VỚI DELEGATE
+* ĐỊNH NGHĨA NHANH LẠI VỀ DELEGATE
+- DELEGATE LÀ LOẠI CLASS ĐẶC BIỆT - BẢN CHẤT MÀY CX LÀ 1 DATA TYPE NHƯ CÁC
+LOẠI DATA TYPE: int, long, float, double, Person, Student, Lecturer, Pet, Dog,...
+- DELEGATE LÀ LOẠI CLASS ĐẶC BIỆT NÓ DÙNG ĐỂ LƯU INFO, INFO ĐẶC BIỆT: TÊN CÁC HÀM
+  THAY VÌ LƯU INFO THÔNG THƯỜNG KIỂU NGÀY THÁNG NĂM SINH, TÊN TUỔI,...
+
+- DELEGATE LÀ TÊN GỌI CHUNG CHO 1 NHÓM HÀM CÙNG STYLE, CÙNG ĐỊNH DẠNGM CÙNG
+FORMAT (TYPE)
+
+- CHƠI VỚI DELEGATE NGHĨA LÀ GIÚP CHO 1 HÀM BÌNH THƯỜNG CÓ THÊM 1 TÊN GỌI KHÁC
+NX, LÀ CÁCH ĐẶT NICK NAME CHO 1 HÀM NÒA ĐÓ, 1 TÊN GỌI THỨ 2 CHO HÀM NÀO ĐÓ
+(GIỐNG MÌNH CÓ TÊN Ở NHÀ LÀ TÍ TEO), HÀM CÓ THÊM 1 TÊN GỌI KHÁC, VÌ LÀ TÊN GỌI
+KHÁC NÊN CÒN GỌI LÀ TRỎ ĐẾN HÀM, CON TRỎ HÀM
+
+- DELEGATE GIỐNG CÂU CHUYỆN LUẬT SƯ 	=   THÂN CHỦ, THÂN CHỦ LÀ HÀM GỐC ỦY
+QUYỀN, TRAO QUYỀN, ỦY NHIỆM, SỨ THẦN, SỨ GIẢ CHO LUẬT SƯ HÀNH ĐỘNG THAY
+
+- 1 HÀM SẼ CÓ 2 CÁCH GỌI: GỌI HÀM GỐC ĐỂ CHẠY, GỌI NICK NAME ĐỂ CHẠY, NÓI THAY 
+CHO THÂN CHỦ
+					LUẬT SƯ ( ) RUN CX NHƯ THÂN CHỦ RUN ( )
+
+
+
+
+1. BƯỚC 1:	KHAI BÁO DELEGATE - TẠO DATA TYPE CHUYÊN ĐI SƯU TẦM LƯU TRỮ TÊN HÀM
+			KHAI BÁO Ở NGANG CẤP, NGANG CƠ, NGANG LEVEL VỚI CLASS KHÁC, INTERFACE
+			KHÁC
+			CÓ THỂ XÀI THÊM: INTERNAL, PUBLIC, KO CẦN PUBLIC, TÙY
+* CÚ PHÁP
+			delegate kiểu-trả-về-của-hàm  Tên-Delegate-Tên-Chung-Nhóm-Hàm-Data-Type-Mới(tham-số-hàm)
+* VÍ DỤ:
+			delegate void F();
+			pubic delegate void F(int x);
+			internal delegate int F();
+			delegate int F(int x);	
+
+//thay int bằng kiểu data type bạn cần, hàm có thể có nhiều hơn 1 tham số
+
+> F kể từ nay về sau là 1 loại Data Type ngang cơ int long double float Person Stydent Car Pet
+	
+*****>>>>> NHA SĨ KHUYÊN DÙNG: NÊN DÙNG CÁI DELEGATE CÓ SẴN ĐC CUNG CẤP BỞI MICROSOFT,
+BỞI .NET SDK THAY VÌ PHẢI TỰ TẠO RIÊNG NHỮNG DELEGATE NHƯ KHAI BÁO Ở TRÊN
+
+TỨC LÀ BẠN KO CẦN TỰ MAY ĐO, MUA ĐỒ SIÊU THỊ. KO CẦN KHAI BÁO DELEGATE VẪN XÀI DELEGATE, XÀI 
+ĐỒ CHUẨN CỦA MICROSOFT -> TƯƠNG THÍCH QUA LẠI CODE TRÊN MẠNG, VỚI CÁC CODE CỦA DEVELOPER KHÁC
+TRÊN THẾ GIỚI. ĐÂY LÀ CÁCH THIÊN HẠ ĐANG XÀI
+* CÓ 4 DATA TYPE NỔI TIẾNG - 4 DELEGATE NỔI TIẾNG TRONG .NET - CHUẨN HÓA CÁCH ĐẶT TÊN CÁC 
+DELEGATE
+
+   Action				Action< >			Func< >				Predicate < >
+   void F( )				void F(???)		??? F(???)				bool F(?)
+
+GIỮA GIỜ HỌC MÓN THÚ VỊ NÀY!!!
+
+>>>>> TẠO DATA TYPE
+
+2. BƯỚC 2: XÀI DATA TYPE - KHAI BÁO BIẾN DELEGATE DÙNG ĐỂ TRỎ HÀM, 
+						  LƯU TÊN HÀM, LƯU HÀM CỤ THỂ NÀO LUÔN
+					LUẬT SƯ		= 	THÂN CHỦ;	//luật sư ông deal giùm tui
+					Data_type	biến	= value;
+* CÔNG THỨC: 	
+		Data_Type_Delegate_Type_Tên_Nhóm_Hàm	biến_trỏ_hàm	= HÀM_NÀO_ĐÓ_Ở_ĐÂU_ĐÓ;
+											nick_name_2ndname = HÀM_NÀO_ĐÓ;
+* VÍ DỤ:
+	F						f				=			HÀM_NÀO_ĐÓ_Ở_ĐÂU_ĐÓ;		//HÀM CÓ SẴN
+	F						f				=			HÀM_NÀO_ĐÓ_Ở_NGAY_ĐÂY;	
+														anonymous function, Lambda Expression 
+						biến, nick, 							
+						2nd name	
+						luật sư
+*****>>>>>	THEO NHA SĨ KHUYÊN DÙNG, THÌ KHAI BÁO NHƯ SAU:
+	Action				f		=	HÀM NÀO ĐÓ...
+	Action<int>			f		=	HÀM NÀO ĐÓ...
+	Action<string, string> 	f		=	...
+	Func<int>				f		=
+	Func<double, double>	f		=
+	Predicate<double>		f		=
+	Predicate<Student>		f 		=	HÀM NÀO ĐÓ...
+	Student				s1		=	value nào đó, Sinh viên nào đó;
+	int					yob		= 	value nào đó, con số nguyên cụ thể 35.000.000;
+
+3. BƯỚC 3: GÁN GIÁ TRỊ CHO BIẾ ĐÃ KHAI BÁO Ở BƯỚC 2 QUA TOÁN TỬ DẤU = (+= -=)
+	TÊN BIẾN						= 	VALUE;
+	BIẾN LÀ TÊN GỌI LÀ CHO 1 VALUE CỤ THỂ NẰM TRONG TẬP DATA TYPE..
+	yob = 2003;	yob là tên gọi cho value cụ thể 2003 thuộc tập data tên là INT, LONG...
+
+	delegate_type	biến		= value là:	
+	delegate_type	biến		= tên hàm nào đó cụ thể ngoài kia (hàm gốc có sẵn  - explicit)
+						= hàm nào đó ngay đây, ko thèm để tên hàm, bán tên rồi, chỉ còn
+						   lại code thoy (tên hàm đi kèm code tên_hàm() {...code...})
+						   chính là ta đang xài anonymous function hoặc Lambda Expression
+								(bán linh hồn, bán cái tên, chỉ còn cái dây nịt)
+								chỉ còn ( ) tham số hàm và {... code hàm})
+				
+				nick_name   = tên hàm gốc;
+				luật sư	  = thân chủ hàm gốc; ủy quyền rồi, thiết lập hợp đồng
+										trai quyền, ủy nhiệm, ủy thác,
+				tuy 2 mà là 1, ai gáy, ai run( ) đều như nhau
+
+
+
+						+= TRỎ TỚI NHIỀU HÀM, 1 NICK ĐẠI DIỆN CHO NHIỀU HÀM
+							1 LUẬT SƯ HỢP ĐỒNG VỚI NHIỀU THÂN CHỦ
+							MULTICAST DELEGATE
+
+3.1 GÁN GIÁ TRỊ CHO BIẾ NICK NAME, BIẾN LUẬT SƯ = 1 HÀM CỤ THỂ NÀO ĐÓ CÓ SẴN
+      F	f1	= TellHer;		//...ko có dùng ( ) vì gây hiểu nhầm: CHẠY HÀM ĐI
+						//PHẢI LÀM HỢP ĐỒNG TRƯỚC RỒI MỚI CÃI!!!
+      			    ------------------------> HÀM TELLHER ĐÃ CÓ SẴN CODE Ở CHỖ KHÁC, NAY THÊM NICK
+							     NAME
+
+	int yob = 2003;
+
+3.2 GÁN GIÁ TRỊ CHO BIẾ NICK NAME, BIẾN LUẬT SƯ = 1 HÀM KO  CÓ SẴN , TẠO NGAY LÚC GÁN
+												  TAKE AWAY - KO CÓ CHỖ SẴN, KO CẦN
+												  ON THE GO...
+												  HÀM ẨN DANH - ANONYMOUS FUNTION
+												  BIỂU THỨC LAMBDA - HÀM ẨN DANH KIỂU
+												  					   CÒN DÂY NỊT, TỐI GIẢN
+																	   PHÂN SỐ
+												  RÚT GỌN SỰ DƯ THỪA TRONG VIỆC GÕ LỆNH 
+												  TẠO HÀM, 
+												 	 BỎ ĐI TÊN HÀM - BÁN LINH HỒN, BÁN TÊN
+												  	 BỎ BỚT KÍ HIỆU/CHỮ Ở THAM SỐ
+												  	 BỎ BỚT KÍ HIỆU/CHỮ Ở THÂN HÀM
+
+      F	f1	= delegate(...) { code của hàm...};	//VIP, ẨN DANH
+      F	f1	= (...) => { code của hàm...};	//VIP, ẨN DANH STYLE LAMBDA EXPRESSION
+									//CHỈ CÒN CÁI DÂY NỊT, PHÂN SỐ TỐI GIẢN
+
+3.3 QUY TẮC CHỈ CÒN CÁI DÂY NỊT, QUY TẮC TỐI GIẢN VIỆC VIẾT HÀM CHƠI VỚI DELEGATE
+      RÚT BỎ HẾT RÂU RIA CỦA CÁI HÀM, CHỈ GIỮ LẠI PHẦN LỖI CỦA 1 CÁI HÀM: TÊN THAM SỐ ĐẦU VÀO VÀ
+THÂN HÀM (CÓ KHI BỎ LUÔN CẢ { RETURN})
+  delegate_type  biến = tên_hàm_nào_đó_ngoài_kia;				void TellHer() {... code hàm ngoài kia}
+  
+  delegate_type biến  = delegate () {... code hàm...};	//Vip;	//anonymous    	
+  delegate_type biến  = () => {... code hàm...};	//Vip;    			//Lambda
+
+3.3.1 RÚT GỌN Ở THAM SỐ ĐẦU VÀO CỦA HÀM
+					( ) =>
+* NẾU ĐẦU VÀO CỦA HÀM LÀ KO CÓ GÌ CẢ, THÌ GÕ: 	( ) => 
+* NẾU ĐẦU VÀO CỦA HÀM LÀ CÓ 1 ĐẦU VÀO, THÌ GÕ: 	
+													( int x) => 
+														( x) =>
+															x => ĐC ƯA THÍCH TOÀN CẦU
+* * NẾU ĐẦU VÀO CỦA HÀM LÀ CÓ TỪ 2 ĐẦU VÀO TRỞ LÊN, THÌ GÕ: 	
+															(int x, int y ) =>  
+																( x, y ) => ĐC ƯA THÍCH HƠN
+									KO ĐC BỎ NGOẶC TRÒN NHƯ TÌNH HUỐNG 1 THAM SỐ
+3.3.1 RÚT GỌN Ở THÂN HÀM
+					=> {THÂN HÀM - CODE HÀM, BODY OF FUNCTION, IMPLETATION}
+
+* NẾU HÀM CHỈ CÓ DUY NHẤT 1 DÒNG LỆNH, TA DẸP LUN {} DẸP LUN RETURN NẾU CÓ VIẾT THÂN HÀM
+LÚC NÀY Y CHANG EXPRESSION BODY
+
+					=> LỆNH GÌ ĐÓ Ở ĐÂY;
+* NẾU THÂN HÀM CÓ NHIỀU DÒNG LỆNH (TỪ 2 DÒNG TRỞ LÊN) THÌ KO ĐC DỌN DẸP GÌ CẢ, VIẾT NHƯ TRUYỀN
+THỐNG
+					=> {...CODE CỦA HÀM, 
+						LỆNH RETURN NẾU CÓ,
+						DO WHILE...
+					     }; //VIP
+4. BƯỚC 4: GỌI HÀM, GỌI HÀM QUA NICK NAME THAY VÌ GỌI TRỰC TIẾP HÀM NHƯ TRUYỀN THỐNG
+
+int 	yob = 2004;					//bước 3 - gán giá trị
+Student s = new Student(...){...};		//bước 3 - gán giá trị
+F	f     = HÀM NÀO ĐÓ TELLHER;	//bước 3 - gán giá trị
+	      = anonymous function;			//bước 3 - gán giá trị đặc biệt: tên hàm, hàm
+	     = biểu thức Lambda;			//bước 3 - gán giá trị đặc biệt: tên hàm, hàm
+								//GÁN CODE CHO BIẾ
+GỌI HÀM ĐỂ CHẠY
+		f()	RUN HÀM QUA NICK NAME, LUẬT SƯ BẮT ĐẦU CÃI...
+	        f.Invoke(...)	//GỌI HÀM GỐC, HAY HÀM ẨN DANH, CHẠY THOY
+
+=======================================================================
+BIẾN BÌNH THƯỜNG = GIÁ TRỊ; RỒI XONG!!!
+int yob = 2004; xong
+Student s = new Student(...) {...} rồi xong
+
+BIẾN DELEGATE = GIÁ TRỊ TÊN HÀM; HÀM CỤ THỂ; HÀM ẨN DANH; HÀM STYLE LAMBDA; CHƯA XONG
+GỌI HÀM ĐỂ RUN( ) GỌI HÀM GIÁN TIẾP QUA NICK NAME, ỦY QUYỀN, ỦY NHIỆM, ỦY THÁC...
+====================================================
