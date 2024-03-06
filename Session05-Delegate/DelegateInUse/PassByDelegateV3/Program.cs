@@ -12,7 +12,7 @@ namespace PassByDelegateV3
     {
         static void Main(string[] args)
         {
-           
+
 
             PrintSongLyricsThe1();  //() gọi hàm run đi
             PrintSongLyricsLover(); //tên hàm 1 mình ên -> luật sư = thân chủ
@@ -82,7 +82,7 @@ namespace PassByDelegateV3
             //GỌI 1 NHƯNG CẢ 2 HÀM CÙNG RUN, HÀM CHÍNH TRAI BAO CHẠY TRC RỒI MS TỚI LƯỢT
 
             //C#6 HÃY IN RA CÁC SỐ TỪ 1..100
-            
+
             //ĐỀU LÀ HÀM ACTION F
             Console.WriteLine("C#7: HÀM KLQ");  //NHƯNG ỔN, VÌ CHỈ LÀ VOID F() THÔI MÀ
             //ĐƯA HÀM ĐÂY, TAO GỌI THEO NHU CẦU ACTION CỦA MÀY
@@ -93,7 +93,8 @@ namespace PassByDelegateV3
 
             //DELEGATE VÀ EVENT LÀ TRI KỈ!!!!!!!!!!!!!!!!!!!!!!!!!!!
             //LOOSE COUPLING, DI
-            PrintOnDemand(() => {
+            PrintOnDemand(() =>
+            {
                 Console.WriteLine("The list of numbers from 1...1000");
                 for (int i = 1; i <= 1000; i++)
                 {
@@ -125,7 +126,7 @@ namespace PassByDelegateV3
 
                     }
             }
-);
+            );
         }
         static Boolean isPrime(int n)
         {
