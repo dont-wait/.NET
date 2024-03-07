@@ -2,9 +2,8 @@
 
 ## You will find in this repo:
 
-### Ban quyen thuoc ve Thay giao.lang - than tuong cua toi
-* NetBeans Apache Ant project including JUnit Test
-* .gitignore file for NetBeans project
+* Visual studio solution project 
+* .gitignore file for Visual studio project
 * README.md - this file itself - using Markdown language
 
 
