@@ -15,11 +15,14 @@ namespace Numerology
             foreach (var x in _arr)
             {
                 f(x);   //tao lần lượt gửi data cho mày, cho hàm f() hàm f() mày làm gì với data kệ
-                //nếu f() check x > 0 mới in, PrintNumbers() chính là hàm in ra các số lớn hơn
+                        //nếu f() check x > 0 mới in, PrintNumbers() chính là hàm in ra các số lớn hơn
             }
         }
         //style cũ: thiết kế đủ các loại hàm cung cấp data! đủ cỡ nào cx  ko là đủ, do nhu cầu
         //tính tóa khác nhau trên bộ data: tính chẵn, lẻ, chia hết cho 10, cho 5, tính tổng,...
+        
+        //VIẾT HÀM ĐẾM CÁI GÌ ĐÓ TRONG DÃY SỐ TRÊN: ĐẾM CHẴN, ĐẾM LẺ, ĐẾM NGUYÊN TỐ
+        //NHÓM: GIÀNH KIỂM SOÁT, OUTSOURCE 1 PHẦN
         public static void Count2(Predicate<int> f) //= hàm chcekNt(int x)
         {
             int count = 0;
@@ -31,19 +34,19 @@ namespace Numerology
             }
             Console.WriteLine("Count: " + count);
         }
-        public static void Count1(Func<int, bool> f) //= hàm chcekNt(int x)
+        public static void Count1(Func<int, bool> f) //= hàm checkNt(int x)
         {
             int count = 0;
             foreach (var x in _arr)
             {
-                //điều gì đúng thì ta count. đưa điều đó vào đây, hàm thích úng mọi kiểu đếm
+                //điều gì đúng thì ta count. đưa điều đó vào đây, hàm thích úng
+                //mọi kiểu đếm
                 if (f(x))
                     count++;
             }
             Console.WriteLine("Count: " + count);
         }
     }   
-        //VIẾT HÀM ĐẾM CÁI GÌ ĐÓ TRONG DÃY SỐ TRÊN, ĐẾM CHẴN, LẺ, NGUYÊN TỐ
-        //NHÓM GIÀNH KIỂM SOÁT, OUTSOUCRE 1 PHẦN
+        
 
 }

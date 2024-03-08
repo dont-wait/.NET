@@ -366,3 +366,64 @@ Student s = new Student(...) {...} rồi xong
 BIẾN DELEGATE = GIÁ TRỊ TÊN HÀM; HÀM CỤ THỂ; HÀM ẨN DANH; HÀM STYLE LAMBDA; CHƯA XONG
 GỌI HÀM ĐỂ RUN( ) GỌI HÀM GIÁN TIẾP QUA NICK NAME, ỦY QUYỀN, ỦY NHIỆM, ỦY THÁC...
 ====================================================
+=====================================================
+TỔNG KẾT NHANH GỌN VỀ DELEGATE - CHUYỆN LUẬT SƯ = THÂN CHỦ = ĐẠI DIỆN NÓI GIÙM, PHÁT NGÔN GIÙM
+									NICK-NAME = HÀM-NÀO-ĐÓ;
+																HÀM-NÀO-ĐÓ( )
+																{
+																	CODE...
+																}
+									CON TRỎ, BIẾN TRỎ ĐẾN HÀM NÀO ĐÓ - HÀM CÓ TÊN GỌI KHÁC NỮA
+																CODE VÀ HÀM Ở TRÊN CÓ THỂ THAY BẰNG B= 
+									ANONYMOUS FUNC & LAMBDA EXPRESSION
+I. KHAI BÁO DELEGATE DÙNG ĐẠI DIỆN CHO 1 NHÓM HÀM
+1. TỰ KHAI BÁO DELEGATE RIÊNG
+-> delegate void F(...);
+-> delegate ??? F(...);
+->		    ??? thay bằng int, long,... delegate int F();
+
+2. DÙNG DELEGATE CÓ SẴN CUNG CẤP BỞI .NET SDK
+->	Action					: hàm void F(ko đầu vào)
+->	Action<???>				: hàm void F(từ 1...16 đầu vào - dùng GENERIC)
+->	Func<???, ? >			: hàm có trả về giá trị ? F(từ 0...16 đầu vào khác nhau - generic)
+								->Func<???, int>
+->	Predicate<?>				: hàm Func<?,boolean>
+							  hàm có trả về giá trị bool đúng sai, nhưng có nhận ĐÚNG DUY NHẤT 1 
+								ĐẦU VÀO - GENERIC LUN
+
+II. GÁN GIÁ TRỊ CHO BIẾN DELEGATE 
+    ĐẶT TÊN CHO 1 HÀM NÀO ĐÓ, TẠO DỤNG CÂU CHUYỆN LUẬT SƯ = THÂN CHỦ
+-> Action 				f = Một_Hàm_Nào_Đó;										//ko trả về kq
+-> Action<int> 			f = Một_Hàm_Nào_Đó_Mà_Có_1_Đầu_Vào_Int;					//ko trả về kq
+-> Func<int>				f =  Một_Hàm_Nào_Đó_Mà_Có_Trả_Về_Int_Và_Ko_Đầu_Vào;		//có trả về kq
+-> Func<int, string>		f =  Một_Hàm_Nào_Đó_Mà_Có_Trả_Về_String_Và_Đầu_Vào_Int;	//có trả về kq
+-> Predicate<string>		f =  Một_Hàm_Nào_Đó_Mà_Có_Trả_Về_Bool_Và_Đầu_Vào_String;	//có trả về kq
+
+-> Action				f = Hàm_ẩn_danh;
+						  = delegate () {code hàm...};
+						 
+-> Action				f = Hàm_ẩn_danh; STYLE LAMBDA EXPRESSION
+						= () => {code};	
+-> Action				f = Hàm_ẩn_danh; STYLE LAMBDA EXPRESSION
+						= (?) => {code};	
+[			LUẬT SƯ	= THÂN CHỦ - HÀM NÀO ĐÓ]
+
+* NHỚ KĨ: NẾU HÀM ẨN DANH, HÀM LAMBDA CÓ THAM SỐ ĐẦU VÀO THÌ NHỚ LÀ PHẢI GHI TRONG PHẦN
+									(???) =>
+									delegate (???)
+		   vì ta đang bàn về hàm có đầu vào, phải ghi ra đầu vào
+* NHỚ QUY TẮC TỐI UU RÚT GỌN CHỈ CÒN CÁI DÂY NỊT Ở THAM SỐ HÀM () => VÀ THÂN HÀM => {} TRONG
+KHI VIẾT BIỂU THÚC LAMBDA - HÀM VÔ DANH ĐẶC BIỆT TINH GỌN
+
+III. RUN HÀM, CHẠY HÀM, GỌI HÀM CHẠY 1 CÁCH GIÁN TIẾP QUA NICK NAME, QUA LUẬT SƯ, NHẬN ỦY
+QUYỀN VÀ ACTION; KO GỌI HÀM TRỰC TIỆP (MẶC DÙ OKIE); RIÊNG HÀM ẨN DANH MẤT TÊN RỒI, GỌI QUA
+NICK NAME
+
+-> BIẾN (THAM SỐ ĐƯA VÀO NẾU CẦN)
+	f(???);
+
+-> BIẾN.INVOKE(THAM SỐ ĐƯA VÀO NẾU CẦU);
+	f.Invoke(???)
+
+* KÍ HỢP ĐỒNG - GÁN NICK NAME - LUẬT SƯ = T HÂN CHỦ
+	* > XONG RỒI MỚI CALL, RUN, INVOKE

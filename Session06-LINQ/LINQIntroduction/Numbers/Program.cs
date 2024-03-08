@@ -33,38 +33,61 @@ namespace Numbers
                          where x > 0    //xem x nào > 0
                          select x;      //thì lấy x đso mà trả về để dùng típ
 
-                                    //CÂU QUẺY GIỐNG NHƯ SQL DÙNG ĐỂ TRUY VẤN DATA TRONG
-                                    //RAM - LINQ THEO STYLE QUẺY SYNTAX
-                        //RUNTIME CHẠY THÌ CONVERT VỀ LAMBDA NHƯ ĐÃ VIẾT, .WHERE(X => X > 0)
-                        //METHOD SYNTAX
-
+            //CÂU QUẺY GIỐNG NHƯ SQL DÙNG ĐỂ TRUY VẤN DATA TRONG
+            //RAM - LINQ THEO STYLE QUẺY SYNTAX
+            //RUNTIME CHẠY THÌ CONVERT VỀ LAMBDA NHƯ ĐÃ VIẾT, .WHERE(X => X > 0)
+            //METHOD SYNTAX
+            Console.WriteLine("> 0 using Query");
             foreach (var x in result)
             {
                 Console.WriteLine(x);
             }
+            
+            Console.WriteLine("Divisable by 2");
+            result = from x in _arr//với mọi x thuộc _arr
+                     where x % 2 == 0   //xem x nào chẵn 
+                     select x;          //m là chẵn thì t chọn m để thêm vào result(danh sách)
+            foreach (var x in result)
+            {
+                Console.WriteLine(x);
+            }
+
         }
         static void PlayWithBuiltOnDemandMethods()
         {
             List<int> _arr = new List<int> { -10, -100, 50, 2, 1, 5, 10, 13, -2 };
-            //tui mún in tất
+            //tui mún in tất cả dãy số 
             //arr có sẵn 1 loạt các hàm để xủ lí data mà nó cất trũ, thay vì ta tự làm
-            //hàm sty;e on demand cx xài cần Action, Action<>, Predicate tùy loại hàm
+            //hàm style on demand cx xài cần Action, Action<>, Predicate tùy loại hàm
 
             //1. In toàn bộ tham số
             Console.WriteLine("Get all");
-
             _arr.ForEach(x => Console.WriteLine(x));
 
-            Console.WriteLine("<-");
+            Console.WriteLine("<- 0 =============");
             //2, In số âm
-            _arr.ForEach(x => { if (x < 0) Console.WriteLine(x); });
+            _arr.ForEach(x => { 
+                                if (x < 0) Console.WriteLine(x); 
+                              }
+                        );
+    
 
-            //3, trả về tui các số dương
+            //3, trả về tui các số dương 50 ,2 ,1 5, 10, 13
             //HÀM DEMAND TRẢ VỀ LIST CHO MÌNH DÙNG TÍP
-            Console.WriteLine("< 0LIST ==================");
+            Console.WriteLine("> 0 LIST ==================");
 
             List<int> result = _arr.Where(x => x >= 0).ToList();
-            result.ForEach(x => Console.WriteLine(x));
+            result.ForEach(x => {
+                Console.WriteLine(x);
+                Console.WriteLine("Ahihi");
+            }
+                    );
+            
+            //foreach (int x in result)
+            //{
+            //    Console.WriteLine(x);
+            //}
+
         }
 
         static void PrintListOnDemand(Predicate<int> f)
