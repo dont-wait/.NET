@@ -2,16 +2,47 @@ RECAL BEFORE TẾT - ÔN TẬP TRƯỚC TẾT
 
 1. OBJECT - CLASS
 - Class là cái Khuôn -> dùng để tạo ra những object từ Khuôn
-- Class là mô tả chung về các object: có bên trong đặc tính (field, backing
+- Class là mô tả chung về các object: có bên trong đặc tính (field, backing)
 field, property) và hành vi (method, function)
 - Class có nhiều loại khác nhau...
--> CHÚ Ý ĐẾN 1 LOẠI CLass mà object từ nó tương lai sẽ đẩy xuống Database
+-> CHÚ Ý ĐẾN 1 LOẠI Class mà object từ nó tương lai sẽ đẩy xuống Database
 
-OOP WORLD/DOMAIN/ENV 			<-------------->	 MAP ÁNH XẠ DATABASE DOMAIN	<-------------> ERD
-class Student												 table STUDENT (RDBMS)				Design     Entity Ralationship Diagram	
+OOP WORLD/DOMAIN/ENV			<---------------------->		MAP ÁNH XẠ DATABASE DOMAIN <---------------> ERD
+Class Student									 		TABLE STUDENT (DBMS)				Design	Enity Relationship Diagram
 {
-	public string Id {get;  set ;}							| Id 	|	Name	| Email |...
-	public string Name { get ; set; }
-	public string Email { get ; set; }
+	public string Id { get; set; }			| Id	| 	Name 	| 	Email 	|	...
+	public string Name { get; set;  }
+	public string Email { get; set; }
 	...
+}
+
+object:						a row/ record, tuple
+Student s = new Student(...) {...}	-> insert into Student values(...)
+Programming					SQL
+
+ * NHỮNG CLASS SẼ MAP XUỐNG DB -> ĐẶT NÓ Ở THƯ MỤC/FOLDER ENTITY/ENTITIES TRONG DỰ ÁN
+
+2. QUẢN LÍ NHIỀU OBJECT -> CẦN NHỮNG ĐỐI TƯỢNG NÀO ĐÓ CÓ THỂ CHỨA ĐC NHIỀU OBJECT KHÁC, ĐỐI TƯỢNG CHỨA NHIỀU ĐỐI TƯỢNG
+KHÁC -> CÁI TÚI, CÁI TỦ, CÁI HỘP, CÁI CONTAINER XUẤT HIỆN
+-> CLASS CABINET CLASS BOX CLASS BAG
+{
+
+	CHỨA NHIỀU ĐỐI TƯỢNG CẦN ĐỰNG BÊN TRONG CÁI HỘP
+	Student s1;
+	Student s2;
+	Student s3;
+	Student s4, s5, s6, s7, s8,...
+	//Khai báo lẻ, dễ làm, dễ hiểu, ko thuận lợi cho số đông
+DECLARATION
+	
+	//MẢNGL À KỸ THUẬT THAY THẾ ƯU VIỆT HƠN, TỐT HƠN KHAI BÁO LẺ
+	//KHAI BÁO ĐC NHIỀU BIẾN LẺ CÙNG LÚC
+	Student[] arr = new Student[300];	//fixed size
+	count đếm số phần tử đang có, chèn vào vị trí thứ [count]
+
+	//DÙNG COLLECTIONS, NHÓM CÁC CLASS THAY THẾ CHO MẢNG, CX CHỨA BÊN TRONG
+	//NHIỀU MÓN ĐỒ NHƯ MẢNG, NHƯNG CO GIÃN KÍCH THƯỚC -  TÚI DORAEMON
+	//QUÊN BIẾN COUNT ĐI!!!
+	//KO XÀI PHÍ RAM, CẦN ĐẾN ĐÂU CẤP ĐẾN ĐÓ, KO DÙNG THÌ THU HỒI!!!
+	
 }
