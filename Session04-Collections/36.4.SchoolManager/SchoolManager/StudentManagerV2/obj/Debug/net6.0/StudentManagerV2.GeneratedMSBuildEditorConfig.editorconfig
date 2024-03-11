@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = StudentManagerV2
-build_property.ProjectDir = D:\Code.Giaolang\CSharp\Session04-Collections\36.4.SchoolManager\SchoolManager\StudentManagerV2\
+build_property.ProjectDir = D:\.NET\Session04-Collections\36.4.SchoolManager\SchoolManager\StudentManagerV2\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

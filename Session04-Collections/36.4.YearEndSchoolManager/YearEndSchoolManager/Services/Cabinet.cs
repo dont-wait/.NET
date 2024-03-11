@@ -20,17 +20,27 @@ namespace Services
         //private Lecturer[] _list2 = new Lecturer[300];
         //private int _count2 = 0;
 
-        private T[] _list1 = new T[300];
-        private int _count1 = 0;
+        private T[] _list = new T[300];
+        private int _count = 0;
 
-        public void AddObject()
+        public void AddItem(T item) //Student s, Lecturer l,    Phone phone
         {
-
+            //TODO: check tràn mảng
+            //if _count == 300 ko cho thêm, HOẶC SẼ NHẬN VỀ OUT OF BOUNDARY EXCEPTION
+            //MẢNG FIXED KÍCH THƯỚC, CẤM VƯỢT BIÊN
+            _list[_count] = item;
+            _count++;
+            
         }
 
-        public void PrintObjects()
+        public void PrintAll()
         {
-
+            //chơi với mảng ko for tới cuối vì sẽ gặp trống nếu mảng chưa đầy
+            Console.WriteLine($"There is/are {_count} item(s) in the list");
+            for (int i = 0; i < _count; i++)
+                Console.WriteLine(_list[i]);
+            //gọi thầm tên em - call ToString() implicitly
+            
         }
     }
 }

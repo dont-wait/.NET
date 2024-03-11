@@ -1,27 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\giao.lang\\Desktop\\_code.truong.lang\\24.SP.PRN211\\36.4.PRN211.NET1704\\Session04-Collection\\YearEndSchoolManager\\Repositories\\Repositories.csproj": {}
+    "D:\\.NET\\Session04-Collections\\36.4.YearEndSchoolManager\\YearEndSchoolManager\\Repositories\\Repositories.csproj": {}
   },
   "projects": {
-    "C:\\Users\\giao.lang\\Desktop\\_code.truong.lang\\24.SP.PRN211\\36.4.PRN211.NET1704\\Session04-Collection\\YearEndSchoolManager\\Repositories\\Repositories.csproj": {
+    "D:\\.NET\\Session04-Collections\\36.4.YearEndSchoolManager\\YearEndSchoolManager\\Repositories\\Repositories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\giao.lang\\Desktop\\_code.truong.lang\\24.SP.PRN211\\36.4.PRN211.NET1704\\Session04-Collection\\YearEndSchoolManager\\Repositories\\Repositories.csproj",
+        "projectUniqueName": "D:\\.NET\\Session04-Collections\\36.4.YearEndSchoolManager\\YearEndSchoolManager\\Repositories\\Repositories.csproj",
         "projectName": "Repositories",
-        "projectPath": "C:\\Users\\giao.lang\\Desktop\\_code.truong.lang\\24.SP.PRN211\\36.4.PRN211.NET1704\\Session04-Collection\\YearEndSchoolManager\\Repositories\\Repositories.csproj",
-        "packagesPath": "C:\\Users\\giao.lang\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\giao.lang\\Desktop\\_code.truong.lang\\24.SP.PRN211\\36.4.PRN211.NET1704\\Session04-Collection\\YearEndSchoolManager\\Repositories\\obj\\",
+        "projectPath": "D:\\.NET\\Session04-Collections\\36.4.YearEndSchoolManager\\YearEndSchoolManager\\Repositories\\Repositories.csproj",
+        "packagesPath": "C:\\Users\\Sang\\.nuget\\packages\\",
+        "outputPath": "D:\\.NET\\Session04-Collections\\36.4.YearEndSchoolManager\\YearEndSchoolManager\\Repositories\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\giao.lang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Sang\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
@@ -49,6 +50,20 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.26, 6.0.26]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.26, 6.0.26]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.26, 6.0.26]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"

@@ -1,38 +1,84 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "Repositories/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Repositories.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Repositories.dll": {}
+        }
+      },
+      "Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Repositories": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Services.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Repositories/1.0.0": {
+      "type": "project",
+      "path": "../Repositories/Repositories.csproj",
+      "msbuildProject": "../Repositories/Repositories.csproj"
+    },
+    "Services/1.0.0": {
+      "type": "project",
+      "path": "../Services/Services.csproj",
+      "msbuildProject": "../Services/Services.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "Repositories >= 1.0.0",
+      "Services >= 1.0.0"
+    ]
   },
   "packageFolders": {
-    "C:\\Users\\giao.lang\\.nuget\\packages\\": {}
+    "C:\\Users\\Sang\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\giao.lang\\Desktop\\_code.truong.lang\\24.SP.PRN211\\36.4.PRN211.NET1704\\Session04-Collection\\YearEndSchoolManager\\MainUI\\MainUI.csproj",
+      "projectUniqueName": "D:\\.NET\\Session04-Collections\\36.4.YearEndSchoolManager\\YearEndSchoolManager\\MainUI\\MainUI.csproj",
       "projectName": "MainUI",
-      "projectPath": "C:\\Users\\giao.lang\\Desktop\\_code.truong.lang\\24.SP.PRN211\\36.4.PRN211.NET1704\\Session04-Collection\\YearEndSchoolManager\\MainUI\\MainUI.csproj",
-      "packagesPath": "C:\\Users\\giao.lang\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\giao.lang\\Desktop\\_code.truong.lang\\24.SP.PRN211\\36.4.PRN211.NET1704\\Session04-Collection\\YearEndSchoolManager\\MainUI\\obj\\",
+      "projectPath": "D:\\.NET\\Session04-Collections\\36.4.YearEndSchoolManager\\YearEndSchoolManager\\MainUI\\MainUI.csproj",
+      "packagesPath": "C:\\Users\\Sang\\.nuget\\packages\\",
+      "outputPath": "D:\\.NET\\Session04-Collections\\36.4.YearEndSchoolManager\\YearEndSchoolManager\\MainUI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\giao.lang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Sang\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\.NET\\Session04-Collections\\36.4.YearEndSchoolManager\\YearEndSchoolManager\\Repositories\\Repositories.csproj": {
+              "projectPath": "D:\\.NET\\Session04-Collections\\36.4.YearEndSchoolManager\\YearEndSchoolManager\\Repositories\\Repositories.csproj"
+            },
+            "D:\\.NET\\Session04-Collections\\36.4.YearEndSchoolManager\\YearEndSchoolManager\\Services\\Services.csproj": {
+              "projectPath": "D:\\.NET\\Session04-Collections\\36.4.YearEndSchoolManager\\YearEndSchoolManager\\Services\\Services.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -55,6 +101,24 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.26, 6.0.26]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[6.0.26, 6.0.26]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.26, 6.0.26]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[6.0.26, 6.0.26]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"

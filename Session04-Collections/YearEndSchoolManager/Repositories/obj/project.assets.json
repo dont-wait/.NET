@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Code.Giaolang\\CSharp\\Session04-Collections\\YearEndSchoolManager\\Repositories\\Repositories.csproj",
+      "projectUniqueName": "D:\\.NET\\Session04-Collections\\YearEndSchoolManager\\Repositories\\Repositories.csproj",
       "projectName": "Repositories",
-      "projectPath": "D:\\Code.Giaolang\\CSharp\\Session04-Collections\\YearEndSchoolManager\\Repositories\\Repositories.csproj",
+      "projectPath": "D:\\.NET\\Session04-Collections\\YearEndSchoolManager\\Repositories\\Repositories.csproj",
       "packagesPath": "C:\\Users\\Sang\\.nuget\\packages\\",
-      "outputPath": "D:\\Code.Giaolang\\CSharp\\Session04-Collections\\YearEndSchoolManager\\Repositories\\obj\\",
+      "outputPath": "D:\\.NET\\Session04-Collections\\YearEndSchoolManager\\Repositories\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Sang\\AppData\\Roaming\\NuGet\\NuGet.Config",

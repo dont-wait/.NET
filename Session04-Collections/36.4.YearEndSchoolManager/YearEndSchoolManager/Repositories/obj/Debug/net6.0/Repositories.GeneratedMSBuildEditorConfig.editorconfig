@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Repositories
-build_property.ProjectDir = C:\Users\giao.lang\Desktop\_code.truong.lang\24.SP.PRN211\36.4.PRN211.NET1704\Session04-Collection\YearEndSchoolManager\Repositories\
+build_property.ProjectDir = D:\.NET\Session04-Collections\36.4.YearEndSchoolManager\YearEndSchoolManager\Repositories\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

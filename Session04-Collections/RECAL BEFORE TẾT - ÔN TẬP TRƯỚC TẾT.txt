@@ -1,0 +1,17 @@
+RECAL BEFORE TẾT - ÔN TẬP TRƯỚC TẾT
+
+1. OBJECT - CLASS
+- Class là cái Khuôn -> dùng để tạo ra những object từ Khuôn
+- Class là mô tả chung về các object: có bên trong đặc tính (field, backing
+field, property) và hành vi (method, function)
+- Class có nhiều loại khác nhau...
+-> CHÚ Ý ĐẾN 1 LOẠI CLass mà object từ nó tương lai sẽ đẩy xuống Database
+
+OOP WORLD/DOMAIN/ENV 			<-------------->	 MAP ÁNH XẠ DATABASE DOMAIN	<-------------> ERD
+class Student												 table STUDENT (RDBMS)				Design     Entity Ralationship Diagram	
+{
+	public string Id {get;  set ;}							| Id 	|	Name	| Email |...
+	public string Name { get ; set; }
+	public string Email { get ; set; }
+	...
+}

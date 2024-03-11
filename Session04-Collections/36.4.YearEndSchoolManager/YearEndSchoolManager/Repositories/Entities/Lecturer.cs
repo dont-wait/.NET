@@ -8,5 +8,13 @@ namespace Repositories.Entities
 {
     public class Lecturer
     {
+        public String Id { get; set; }
+        public String Name { get; set; }
+
+        public String Email { get; set; }
+        public int Yob { get; set; }
+        public double Salary { get; set; }
+
+        public override string ToString() => $"Lecturer: {Id} | {Name} | {Salary}";
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vOymWSYR216AYwFqQqiw9P9ZeD2NgpPj31fbybuh2H1+kW21QVkaG9WrATC2gsVUgT9Nxs/Qv+hZddLAh9/K2w==",
+  "dgSpecHash": "vShVD0+3MG5xWAPie4T8yxiRg9X5mD1Y4rUUd9MwtJJHGDu5ULKPd0lRz/C7Ay/Mp+aHJhF54ZN2tT8skxcWiw==",
   "success": true,
-  "projectFilePath": "D:\\Code.Giaolang\\CSharp\\Session04-Collections\\36.4.SchoolManager\\SchoolManager\\StudentManagerV2\\StudentManagerV2.csproj",
+  "projectFilePath": "D:\\.NET\\Session04-Collections\\36.4.SchoolManager\\SchoolManager\\StudentManagerV2\\StudentManagerV2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Sang\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.26\\microsoft.windowsdesktop.app.ref.6.0.26.nupkg.sha512",
     "C:\\Users\\Sang\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.26\\microsoft.netcore.app.ref.6.0.26.nupkg.sha512",

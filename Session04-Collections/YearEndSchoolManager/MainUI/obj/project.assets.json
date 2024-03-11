@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Code.Giaolang\\CSharp\\Session04-Collections\\YearEndSchoolManager\\MainUI\\MainUI.csproj",
+      "projectUniqueName": "D:\\.NET\\Session04-Collections\\YearEndSchoolManager\\MainUI\\MainUI.csproj",
       "projectName": "MainUI",
-      "projectPath": "D:\\Code.Giaolang\\CSharp\\Session04-Collections\\YearEndSchoolManager\\MainUI\\MainUI.csproj",
+      "projectPath": "D:\\.NET\\Session04-Collections\\YearEndSchoolManager\\MainUI\\MainUI.csproj",
       "packagesPath": "C:\\Users\\Sang\\.nuget\\packages\\",
-      "outputPath": "D:\\Code.Giaolang\\CSharp\\Session04-Collections\\YearEndSchoolManager\\MainUI\\obj\\",
+      "outputPath": "D:\\.NET\\Session04-Collections\\YearEndSchoolManager\\MainUI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Sang\\AppData\\Roaming\\NuGet\\NuGet.Config",

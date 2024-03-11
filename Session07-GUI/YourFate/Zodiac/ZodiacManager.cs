@@ -36,7 +36,7 @@ namespace Zodiac
             //1. đưa ảnh vào ram
             //Image img = Image.FromFile(@"signs\hauGai.jpg");
 
-            Image img = Image.FromFile(@"signs\hauGai.jpg");
+            Image img = Image.FromFile(@"signs\Arya-san.jpg");
 
 
             //Image img = Image.FromFile("signs\\hauGai.jpg");

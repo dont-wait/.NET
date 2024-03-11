@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "cl2EciRN5UZZ3jHs3zLYymMXYKKAK3VwiLpf0KJw6j/LG03GPUSVapcHGt/T1Z/yi5SxZU/rKOxOme/JKdvP6A==",
+  "dgSpecHash": "YbFXbYjoYQJHapANF72X+GXIv9apS7z4JyUNcB3u7fhpGQ9RKFPxaFLec9iJdGw7aTlY5IbVKNndJa0lfNVlQQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\giao.lang\\Desktop\\_code.truong.lang\\24.SP.PRN211\\36.4.PRN211.NET1704\\Session04-Collection\\YearEndSchoolManager\\Services\\Services.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\.NET\\Session04-Collections\\36.4.YearEndSchoolManager\\YearEndSchoolManager\\Services\\Services.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Sang\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.26\\microsoft.windowsdesktop.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\Sang\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.26\\microsoft.netcore.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\Sang\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.26\\microsoft.aspnetcore.app.ref.6.0.26.nupkg.sha512"
+  ],
   "logs": []
 }

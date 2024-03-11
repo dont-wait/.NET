@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Code.Giaolang\\CSharp\\Session04-Collections\\36.4.SchoolManager\\SchoolManager\\StudentManagerV2\\StudentManagerV2.csproj": {}
+    "D:\\.NET\\Session04-Collections\\36.4.SchoolManager\\SchoolManager\\StudentManagerV2\\StudentManagerV2.csproj": {}
   },
   "projects": {
-    "D:\\Code.Giaolang\\CSharp\\Session04-Collections\\36.4.SchoolManager\\SchoolManager\\StudentManagerV2\\StudentManagerV2.csproj": {
+    "D:\\.NET\\Session04-Collections\\36.4.SchoolManager\\SchoolManager\\StudentManagerV2\\StudentManagerV2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Code.Giaolang\\CSharp\\Session04-Collections\\36.4.SchoolManager\\SchoolManager\\StudentManagerV2\\StudentManagerV2.csproj",
+        "projectUniqueName": "D:\\.NET\\Session04-Collections\\36.4.SchoolManager\\SchoolManager\\StudentManagerV2\\StudentManagerV2.csproj",
         "projectName": "StudentManagerV2",
-        "projectPath": "D:\\Code.Giaolang\\CSharp\\Session04-Collections\\36.4.SchoolManager\\SchoolManager\\StudentManagerV2\\StudentManagerV2.csproj",
+        "projectPath": "D:\\.NET\\Session04-Collections\\36.4.SchoolManager\\SchoolManager\\StudentManagerV2\\StudentManagerV2.csproj",
         "packagesPath": "C:\\Users\\Sang\\.nuget\\packages\\",
-        "outputPath": "D:\\Code.Giaolang\\CSharp\\Session04-Collections\\36.4.SchoolManager\\SchoolManager\\StudentManagerV2\\obj\\",
+        "outputPath": "D:\\.NET\\Session04-Collections\\36.4.SchoolManager\\SchoolManager\\StudentManagerV2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Sang\\AppData\\Roaming\\NuGet\\NuGet.Config",

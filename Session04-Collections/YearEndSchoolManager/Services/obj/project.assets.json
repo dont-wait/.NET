@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Code.Giaolang\\CSharp\\Session04-Collections\\YearEndSchoolManager\\Services\\Services.csproj",
+      "projectUniqueName": "D:\\.NET\\Session04-Collections\\YearEndSchoolManager\\Services\\Services.csproj",
       "projectName": "Services",
-      "projectPath": "D:\\Code.Giaolang\\CSharp\\Session04-Collections\\YearEndSchoolManager\\Services\\Services.csproj",
+      "projectPath": "D:\\.NET\\Session04-Collections\\YearEndSchoolManager\\Services\\Services.csproj",
       "packagesPath": "C:\\Users\\Sang\\.nuget\\packages\\",
-      "outputPath": "D:\\Code.Giaolang\\CSharp\\Session04-Collections\\YearEndSchoolManager\\Services\\obj\\",
+      "outputPath": "D:\\.NET\\Session04-Collections\\YearEndSchoolManager\\Services\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Sang\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -53,8 +53,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Code.Giaolang\\CSharp\\Session04-Collections\\YearEndSchoolManager\\Repositories\\Repositories.csproj": {
-              "projectPath": "D:\\Code.Giaolang\\CSharp\\Session04-Collections\\YearEndSchoolManager\\Repositories\\Repositories.csproj"
+            "D:\\.NET\\Session04-Collections\\YearEndSchoolManager\\Repositories\\Repositories.csproj": {
+              "projectPath": "D:\\.NET\\Session04-Collections\\YearEndSchoolManager\\Repositories\\Repositories.csproj"
             }
           }
         }

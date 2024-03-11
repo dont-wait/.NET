@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "mXWLNHMw9ffwp6HwDwWAdbqqi3AnPfAKzC1K4TPmi0NY0pa+paq7Luywa/kzGPrWAyRXw/8IS6jghHC+HMStlw==",
+  "dgSpecHash": "guCV0isIx/u+C3n/WTxz1JkSePeRIPgjWc7Gdyb9O07E7xzOfNa5MGb1t+4RJ1Dwi3w/OIChbeyKbMhqnL6Vug==",
   "success": true,
-  "projectFilePath": "C:\\Users\\giao.lang\\Desktop\\_code.truong.lang\\24.SP.PRN211\\36.4.PRN211.NET1704\\Session04-Collection\\YearEndSchoolManager\\MainUI\\MainUI.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\.NET\\Session04-Collections\\36.4.YearEndSchoolManager\\YearEndSchoolManager\\MainUI\\MainUI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Sang\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.26\\microsoft.windowsdesktop.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\Sang\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.26\\microsoft.netcore.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\Sang\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.26\\microsoft.aspnetcore.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\Sang\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.26\\microsoft.netcore.app.host.win-x64.6.0.26.nupkg.sha512"
+  ],
   "logs": []
 }
