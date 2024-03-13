@@ -85,7 +85,14 @@ namespace Zodiac
 
         private void btnQuit_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            //HỎI XÁC NHẬN CÓ MUỐN THẬT SỰ MUỐN THOÁT APP HAY KHÔNG
+            DialogResult anwser = MessageBox.Show("Do you really want to exit?", "Exit?", 
+                MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            //hàm này trả về giá trị lựa chọn của user khi user bấm nút Yes/No/OK/Cancel... -> giá trị này
+            //thuộc data type DialogResult
+            //                  DiaLog: Hội thoại
+            if(anwser == DialogResult.Yes)
+                Application.Exit();
         }
 
         private void pnlImage_Paint(object sender, PaintEventArgs e)

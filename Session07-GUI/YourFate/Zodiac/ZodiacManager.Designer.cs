@@ -144,7 +144,7 @@
             lblYourZodiac.BackColor = Color.Red;
             lblYourZodiac.Font = new Font("Segoe UI", 24F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
             lblYourZodiac.ForeColor = Color.Yellow;
-            lblYourZodiac.Location = new Point(2, 456);
+            lblYourZodiac.Location = new Point(2, 492);
             lblYourZodiac.Name = "lblYourZodiac";
             lblYourZodiac.Size = new Size(302, 45);
             lblYourZodiac.TabIndex = 5;
@@ -168,7 +168,7 @@
             // 
             lblNoCopyright.FlatStyle = FlatStyle.Flat;
             lblNoCopyright.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblNoCopyright.Location = new Point(707, 478);
+            lblNoCopyright.Location = new Point(13, 553);
             lblNoCopyright.Name = "lblNoCopyright";
             lblNoCopyright.Size = new Size(154, 34);
             lblNoCopyright.TabIndex = 9;
@@ -180,7 +180,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Red;
-            ClientSize = new Size(873, 541);
+            ClientSize = new Size(921, 599);
             Controls.Add(lblNoCopyright);
             Controls.Add(txbMonth);
             Controls.Add(txbBirthDay);
