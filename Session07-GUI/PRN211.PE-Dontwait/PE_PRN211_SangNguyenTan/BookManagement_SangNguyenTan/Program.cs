@@ -1,4 +1,4 @@
-namespace BookManagement_SangNguyenTan
+﻿namespace BookManagement_SangNguyenTan
 {
     internal static class Program
     {
@@ -12,6 +12,8 @@ namespace BookManagement_SangNguyenTan
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
             Application.Run(new BookManagerManUI());
+            //new màn hình chính
+            //từ màn hình chính mới new màn hình detail
         }
     }
 }
