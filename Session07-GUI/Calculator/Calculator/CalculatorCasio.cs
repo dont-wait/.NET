@@ -96,68 +96,34 @@
         }
 
 
+        private void ProcessInput(Func<double, double> operation)
+        {
+            if (double.TryParse(txtResult.Text, out num1) || double.TryParse(txtResultFinal.Text, out num1))
+            {
+                result = operation(num1);
+                txtResultFinal.Text = result.ToString();
+                txtResult.Clear();
+            }
+        }
+
         private void btnSqrt_Click(object sender, EventArgs e)
         {
-            if (double.TryParse(txtResult.Text, out num1))
-            {
-                result = Math.Sqrt(num1);
-                txtResultFinal.Text = result.ToString();
-                txtResult.Clear();
-            }
-            else if (double.TryParse(txtResultFinal.Text, out num1))
-            {
-                result = Math.Sqrt(num1);
-                txtResultFinal.Text = result.ToString();
-                txtResult.Clear();
-            }
+            ProcessInput(Math.Sqrt);
         }
 
         private void btnPow_Click(object sender, EventArgs e)
         {
-            if (double.TryParse(txtResult.Text, out num1))
-            {
-                result = Math.Pow(num1, 2);
-                txtResultFinal.Text = result.ToString();
-                txtResult.Clear();
-            }
-            else if (double.TryParse(txtResultFinal.Text, out num1))
-            {
-                result = Math.Pow(num1, 2);
-                txtResultFinal.Text = result.ToString();
-                txtResult.Clear();
-            }
+            ProcessInput(x => Math.Pow(x, 2));
         }
 
         private void btnOneDivideNumber_Click(object sender, EventArgs e)
         {
-            if (double.TryParse(txtResult.Text, out num1) && num1 != 0)
-            {
-                result = 1 / num1;
-                txtResultFinal.Text = result.ToString();
-                txtResult.Clear();
-            }
-            else if (double.TryParse(txtResultFinal.Text, out num1))
-            {
-                result = num1 / num1;
-                txtResultFinal.Text = result.ToString();
-                txtResult.Clear();
-            }
+            ProcessInput(num => 1 / num);
         }
 
         private void btnPercent_Click(object sender, EventArgs e)
         {
-            if (double.TryParse(txtResult.Text, out num1))
-            {
-                result = num1 / 100;
-                txtResultFinal.Text = result.ToString();
-                txtResult.Clear();
-            }
-            else if(double.TryParse(txtResultFinal.Text, out num1))
-            {
-                result = num1 / 100;
-                txtResultFinal.Text = result.ToString(); 
-                txtResult.Clear();
-            }
+            ProcessInput(num => num / 100);
         }
 
         private void btnDeleteOneCharacter_Click(object sender, EventArgs e)
