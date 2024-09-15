@@ -197,6 +197,7 @@
             Controls.Add(btnAdd);
             Name = "Form1";
             Text = "Mini";
+            Load += Form1_Load;
             ResumeLayout(false);
             PerformLayout();
         }
