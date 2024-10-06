@@ -36,6 +36,7 @@ namespace Services
             {
                 BookId = 1,
                 BookName = "Đời Ngắn Đừng Ngủ Dài-Short Life Don’t Sleep Long",
+                Description = "Sách dành cho lứa tuổi thanh thiếu niên",
                 Author = "Robin Sharma",
                 PublicationDate = "2023-01-01",
                 BookCategoryId = 5
@@ -45,6 +46,7 @@ namespace Services
             {
                 BookId = 2,
                 BookName = "Mình Là Nắng, Việc Của Mình Là Chói Chang-I Am the Sun, My Job Is to Shine Bright",
+                Description = "Hãy phát huy tính chất vốn có trong bạn, của riêng bạn,...",
                 Author = "Kazuko Watanabe",
                 PublicationDate = "2023-01-01",
                 BookCategoryId = 5
@@ -54,6 +56,7 @@ namespace Services
             {
                 BookId = 3,
                 BookName = "Tuổi Trẻ Đáng Giá Bao Nhiêu-How Much Is Youth Worth",
+                Description = "Những bài học kĩ năng mềm",
                 Author = "Rosie Nguyễn",
                 PublicationDate = "2018-01-01",
                 BookCategoryId = 5

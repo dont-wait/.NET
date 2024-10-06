@@ -31,7 +31,7 @@
             lblHeader = new Label();
             grbSearchCriteria = new GroupBox();
             btnSearch = new Button();
-            txtBookDescription = new TextBox();
+            txtDescription = new TextBox();
             txtBookName = new TextBox();
             lblBookName = new Label();
             lblBookDesciption = new Label();
@@ -55,7 +55,7 @@
             lblHeader.ForeColor = Color.Yellow;
             lblHeader.Location = new Point(1, 0);
             lblHeader.Name = "lblHeader";
-            lblHeader.Size = new Size(359, 65);
+            lblHeader.Size = new Size(448, 81);
             lblHeader.TabIndex = 0;
             lblHeader.Text = "Book Manager";
             lblHeader.Click += lblHeader_Click;
@@ -63,15 +63,17 @@
             // grbSearchCriteria
             // 
             grbSearchCriteria.Controls.Add(btnSearch);
-            grbSearchCriteria.Controls.Add(txtBookDescription);
+            grbSearchCriteria.Controls.Add(txtDescription);
             grbSearchCriteria.Controls.Add(txtBookName);
             grbSearchCriteria.Controls.Add(lblBookName);
             grbSearchCriteria.Controls.Add(lblBookDesciption);
             grbSearchCriteria.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             grbSearchCriteria.ForeColor = Color.Yellow;
-            grbSearchCriteria.Location = new Point(22, 106);
+            grbSearchCriteria.Location = new Point(25, 141);
+            grbSearchCriteria.Margin = new Padding(3, 4, 3, 4);
             grbSearchCriteria.Name = "grbSearchCriteria";
-            grbSearchCriteria.Size = new Size(808, 118);
+            grbSearchCriteria.Padding = new Padding(3, 4, 3, 4);
+            grbSearchCriteria.Size = new Size(923, 157);
             grbSearchCriteria.TabIndex = 0;
             grbSearchCriteria.TabStop = false;
             grbSearchCriteria.Text = " Search Criteria";
@@ -79,25 +81,29 @@
             // btnSearch
             // 
             btnSearch.FlatStyle = FlatStyle.Flat;
-            btnSearch.Location = new Point(681, 46);
+            btnSearch.Location = new Point(778, 61);
+            btnSearch.Margin = new Padding(3, 4, 3, 4);
             btnSearch.Name = "btnSearch";
-            btnSearch.Size = new Size(106, 38);
+            btnSearch.Size = new Size(121, 51);
             btnSearch.TabIndex = 2;
             btnSearch.Text = "Search";
             btnSearch.UseVisualStyleBackColor = true;
+            btnSearch.Click += btnSearch_Click;
             // 
-            // txtBookDescription
+            // txtDescription
             // 
-            txtBookDescription.Location = new Point(521, 48);
-            txtBookDescription.Name = "txtBookDescription";
-            txtBookDescription.Size = new Size(143, 33);
-            txtBookDescription.TabIndex = 1;
+            txtDescription.Location = new Point(595, 64);
+            txtDescription.Margin = new Padding(3, 4, 3, 4);
+            txtDescription.Name = "txtDescription";
+            txtDescription.Size = new Size(163, 39);
+            txtDescription.TabIndex = 1;
             // 
             // txtBookName
             // 
-            txtBookName.Location = new Point(128, 48);
+            txtBookName.Location = new Point(146, 64);
+            txtBookName.Margin = new Padding(3, 4, 3, 4);
             txtBookName.Name = "txtBookName";
-            txtBookName.Size = new Size(162, 33);
+            txtBookName.Size = new Size(185, 39);
             txtBookName.TabIndex = 0;
             // 
             // lblBookName
@@ -105,9 +111,9 @@
             lblBookName.AutoSize = true;
             lblBookName.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblBookName.ForeColor = Color.Yellow;
-            lblBookName.Location = new Point(6, 51);
+            lblBookName.Location = new Point(7, 68);
             lblBookName.Name = "lblBookName";
-            lblBookName.Size = new Size(116, 25);
+            lblBookName.Size = new Size(146, 32);
             lblBookName.TabIndex = 4;
             lblBookName.Text = "Book Name";
             lblBookName.Click += label4_Click;
@@ -117,9 +123,9 @@
             lblBookDesciption.AutoSize = true;
             lblBookDesciption.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblBookDesciption.ForeColor = Color.Yellow;
-            lblBookDesciption.Location = new Point(349, 51);
+            lblBookDesciption.Location = new Point(378, 67);
             lblBookDesciption.Name = "lblBookDesciption";
-            lblBookDesciption.Size = new Size(166, 25);
+            lblBookDesciption.Size = new Size(211, 32);
             lblBookDesciption.TabIndex = 3;
             lblBookDesciption.Text = "Book Description";
             // 
@@ -128,9 +134,9 @@
             lblBookList.AutoSize = true;
             lblBookList.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
             lblBookList.ForeColor = Color.Yellow;
-            lblBookList.Location = new Point(22, 249);
+            lblBookList.Location = new Point(25, 332);
             lblBookList.Name = "lblBookList";
-            lblBookList.Size = new Size(93, 25);
+            lblBookList.Size = new Size(118, 32);
             lblBookList.TabIndex = 2;
             lblBookList.Text = "Book List";
             // 
@@ -139,9 +145,10 @@
             btnCreate.FlatStyle = FlatStyle.Flat;
             btnCreate.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnCreate.ForeColor = Color.Yellow;
-            btnCreate.Location = new Point(33, 32);
+            btnCreate.Location = new Point(38, 43);
+            btnCreate.Margin = new Padding(3, 4, 3, 4);
             btnCreate.Name = "btnCreate";
-            btnCreate.Size = new Size(184, 38);
+            btnCreate.Size = new Size(210, 51);
             btnCreate.TabIndex = 0;
             btnCreate.Text = "Create a book";
             btnCreate.UseVisualStyleBackColor = true;
@@ -152,9 +159,10 @@
             btnDelete.FlatStyle = FlatStyle.Flat;
             btnDelete.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnDelete.ForeColor = Color.Yellow;
-            btnDelete.Location = new Point(33, 152);
+            btnDelete.Location = new Point(38, 203);
+            btnDelete.Margin = new Padding(3, 4, 3, 4);
             btnDelete.Name = "btnDelete";
-            btnDelete.Size = new Size(184, 38);
+            btnDelete.Size = new Size(210, 51);
             btnDelete.TabIndex = 2;
             btnDelete.Text = "Delete a book";
             btnDelete.UseVisualStyleBackColor = true;
@@ -165,21 +173,24 @@
             btnUpdate.FlatStyle = FlatStyle.Flat;
             btnUpdate.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnUpdate.ForeColor = Color.Yellow;
-            btnUpdate.Location = new Point(33, 92);
+            btnUpdate.Location = new Point(38, 123);
+            btnUpdate.Margin = new Padding(3, 4, 3, 4);
             btnUpdate.Name = "btnUpdate";
-            btnUpdate.Size = new Size(184, 38);
+            btnUpdate.Size = new Size(210, 51);
             btnUpdate.TabIndex = 1;
             btnUpdate.Text = "Update a book";
             btnUpdate.UseVisualStyleBackColor = true;
+            btnUpdate.Click += btnUpdate_Click;
             // 
             // btnExit
             // 
             btnExit.FlatStyle = FlatStyle.Flat;
             btnExit.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnExit.ForeColor = Color.Yellow;
-            btnExit.Location = new Point(842, 491);
+            btnExit.Location = new Point(962, 655);
+            btnExit.Margin = new Padding(3, 4, 3, 4);
             btnExit.Name = "btnExit";
-            btnExit.Size = new Size(184, 38);
+            btnExit.Size = new Size(210, 51);
             btnExit.TabIndex = 11;
             btnExit.Text = "Exit";
             btnExit.UseVisualStyleBackColor = true;
@@ -188,11 +199,12 @@
             // dgvBookList
             // 
             dgvBookList.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvBookList.Location = new Point(30, 277);
+            dgvBookList.Location = new Point(34, 369);
+            dgvBookList.Margin = new Padding(3, 4, 3, 4);
             dgvBookList.Name = "dgvBookList";
-            dgvBookList.Size = new Size(548, 227);
+            dgvBookList.RowHeadersWidth = 51;
+            dgvBookList.Size = new Size(626, 303);
             dgvBookList.TabIndex = 1;
-           
             dgvBookList.SelectionChanged += dgvBookList_SelectionChanged;
             // 
             // lblCopyRight
@@ -200,9 +212,9 @@
             lblCopyRight.AutoSize = true;
             lblCopyRight.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblCopyRight.ForeColor = Color.Yellow;
-            lblCopyRight.Location = new Point(28, 507);
+            lblCopyRight.Location = new Point(32, 676);
             lblCopyRight.Name = "lblCopyRight";
-            lblCopyRight.Size = new Size(114, 17);
+            lblCopyRight.Size = new Size(154, 23);
             lblCopyRight.TabIndex = 13;
             lblCopyRight.Text = "© 2024 dont-wait";
             lblCopyRight.Click += label1_Click;
@@ -214,19 +226,21 @@
             grbAction.Controls.Add(btnCreate);
             grbAction.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             grbAction.ForeColor = Color.Yellow;
-            grbAction.Location = new Point(601, 269);
+            grbAction.Location = new Point(687, 359);
+            grbAction.Margin = new Padding(3, 4, 3, 4);
             grbAction.Name = "grbAction";
-            grbAction.Size = new Size(238, 211);
+            grbAction.Padding = new Padding(3, 4, 3, 4);
+            grbAction.Size = new Size(272, 281);
             grbAction.TabIndex = 2;
             grbAction.TabStop = false;
             grbAction.Text = " Action ";
             // 
             // BookManagerManUI
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Red;
-            ClientSize = new Size(1038, 541);
+            ClientSize = new Size(1186, 721);
             Controls.Add(grbAction);
             Controls.Add(lblCopyRight);
             Controls.Add(dgvBookList);
@@ -234,6 +248,7 @@
             Controls.Add(lblBookList);
             Controls.Add(grbSearchCriteria);
             Controls.Add(lblHeader);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "BookManagerManUI";
             Text = "Book Manager";
             Load += BookManagerManUI_Load;
@@ -252,7 +267,7 @@
         private Label lblBookName;
         private Label lblBookDesciption;
         private Label lblBookList;
-        private TextBox txtBookDescription;
+        private TextBox txtDescription;
         private TextBox txtBookName;
         private Button btnSearch;
         private Button btnCreate;

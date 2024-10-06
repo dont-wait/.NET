@@ -23,6 +23,7 @@ namespace BookManagement_SangNguyenTan
         //mặc định form này mở lên, ko có Book nào cả
         //nếu muốn có Book thì phải
         //.SelectedBook = cuốn muốn gán vào!!! 
+        //Mượn dto để thể hiện thông qua get set hoi
         public BookDetailForm()
         {
             InitializeComponent();
@@ -30,8 +31,8 @@ namespace BookManagement_SangNguyenTan
 
         private void BookDetailForm_Load(object sender, EventArgs e)
         {
-            //MỞ MÀN HÌNH DEATAIL THÌ TA SẼ:
-            //1. FILL ĐẦY CATEGORY - LẤY DATA TỪ TABLE CATEGORY
+            //MỞ MÀN HÌNH DETAIL THÌ TA SẼ:
+            //1. FILL ĐẦY CATEGORY DROP DOWN- LẤY DATA TỪ TABLE CATEGORY
             //2. NẾU LÀ EDIT 1 CUỐN SÁCH THÌ FILL DATA CỦA CUỐN SÁCH MÚN
             //   EDIT VÀO CÁC Ô TƯƠNG ỨNG
             //3. NẾU LÀ TẠO MỚI CUỐN SÁCH THÌ CỨ ĐỂ MÀN HÌNH TRẮNG TRƠN V ĐÓ
@@ -53,22 +54,33 @@ namespace BookManagement_SangNguyenTan
             //nhảy đến giá trị bất kì mình thích trong combo
             //cboBookCategoryId.SelectedValue = 5;//default với mình 
             //là sách self help
-        
+
             //CHECK HÀNG, CÓ PHẢI LÀ EDIT HAY KO
             //CHECK BIẾN SELECTEDBOOK COI CÓ DC SET KHÁC NULL KO
             //NẾU CÓ SÁCH THÌ FILL VÀO CÁC Ô
-            if(SelectedBook != null)
+            if (SelectedBook != null)
             {
                 txtBookId.Text = SelectedBook.BookId.ToString();
                 txtBookName.Text = SelectedBook.BookName;
+                txtAuthor.Text = SelectedBook.Author;
+                dtpPublicationDate.Text = SelectedBook.PublicationDate.ToString();
                 txtDescription.Text = SelectedBook.Description;
                 //...
-                cboBookCategoryId.SelectedValue = 
+                cboBookCategoryId.SelectedValue =
                     SelectedBook.BookCategoryId;//default với mình 
-                //tuỳ sách cate gì thì jump đên số đó
+                //tuỳ sách cate gì thì jump đên số đó!!!
+
             }
         }
 
-     
+        private void btnSave_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnCancel_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
