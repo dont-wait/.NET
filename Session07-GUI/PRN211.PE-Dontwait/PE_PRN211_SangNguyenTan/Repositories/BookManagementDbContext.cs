@@ -33,11 +33,27 @@ public partial class BookManagementDbContext : DbContext
                     .Build();
         var strConn = config["ConnectionStrings:DefaultConnectionStringDB"];
         //sửa lại cái tag cho phù hợp
+
         return strConn;
     }
 
 
-    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) => optionsBuilder.UseSqlServer(GetConnectionString());
+    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) => optionsBuilder.UseSqlServer(GetConnectionString()); 
+                                        //REMOVE HASHCODE CONNNECT - STRING
+                                        //THAY BẰNG LỜI GỌI HÀM JSON Ở TRÊN
+                                        //CHỐT LẠI
+                                        //1. TẠO 3 PROJECT GUI, SERVICE, REPO, TẠO THAM CHIẾU - COPY TO LOCAL
+                                        //2. KIỂM TRA CSDL - CHẠY FILE SCRIPT TRƯỜNG CHO
+                                        //3. TẠO TOOL Ở DÒNG LỆNH EF
+                                        //4. SUY NGƯỢC TỪ DB TỪ CÂU LỆNH SCAFFOLD - BẮT BUỘC ADD 4 THƯ VIỆN - NHỚ CHẠY BUILD
+                                        //              SAU ĐÓ CHẠY LỆNH SCAFFOLD TRONG FILE TXT
+                                        // > dotnet ef dbcontext scaffold "Server=(local);Database= BookManagementDb;UID=sa;PWD=sa123456;TrustServerCertificate=True" "Microsoft.EntityFrameworkCore.SqlServer" --output-dir "Entities" --context-dir ".\"
+                                        //lệnh này giúp sinh thư mục, từ db to class - DB first       
+                                        //5. TẠO JSON CẤU HÌNH
+                                        //6. COPY TO OUPUT
+                                        //7. SỬA HASHCODE ĐỌC DỮ LIỆU
+
+
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

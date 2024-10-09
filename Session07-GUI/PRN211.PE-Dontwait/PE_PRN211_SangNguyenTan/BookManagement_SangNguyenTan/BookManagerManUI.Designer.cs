@@ -58,7 +58,6 @@
             lblHeader.Size = new Size(448, 81);
             lblHeader.TabIndex = 0;
             lblHeader.Text = "Book Manager";
-            lblHeader.Click += lblHeader_Click;
             // 
             // grbSearchCriteria
             // 
@@ -116,7 +115,6 @@
             lblBookName.Size = new Size(146, 32);
             lblBookName.TabIndex = 4;
             lblBookName.Text = "Book Name";
-            lblBookName.Click += label4_Click;
             // 
             // lblBookDesciption
             // 
@@ -217,7 +215,6 @@
             lblCopyRight.Size = new Size(154, 23);
             lblCopyRight.TabIndex = 13;
             lblCopyRight.Text = "© 2024 dont-wait";
-            lblCopyRight.Click += label1_Click;
             // 
             // grbAction
             // 

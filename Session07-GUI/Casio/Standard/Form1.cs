@@ -1,35 +1,21 @@
-﻿using System;
-using System.Windows.Forms;
-
-namespace Calculator
+namespace Standard
 {
-    public partial class CalculatorCasio : Form
+    public partial class Form1 : Form
     {
-        private Programmer programmer;
-        private CalculatorCasio calculatorCasio;
         private double num1, num2, result;
         private string? calculation;
-
-        public CalculatorCasio()
+        public Form1()
         {
             InitializeComponent();
-
-            programmer = new Programmer(this);
-            programmer.Dock = DockStyle.Fill;
-            this.Controls.Add(programmer);
-            programmer.Visible = false;
-
-
         }
+
+
 
         private void Form1_Load(object sender, EventArgs e)
         {
             this.MaximizeBox = false;
-            this.AutoScaleMode = AutoScaleMode.Dpi;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
         }
-
-        //BUTTON EVENT
 
         private void AppendToResult(string value) => txbInput.Text += value;
 
@@ -92,19 +78,21 @@ namespace Calculator
                 MessageBox.Show("Invalid input. Please enter a numeric value.");
             }
         }
-
-        private void btnChangeOpposite_Click(object sender, EventArgs e)
+        private void ProcessInput(Func<double, double> operation)
         {
-            if (double.TryParse(txbInput.Text, out double num))
+            if (double.TryParse(txbInput.Text, out num1))
+                result = operation(num1);
+            else if (double.TryParse(txbResult.Text, out num1))
+                result = operation(num1);
+            else
             {
-                txbInput.Text = (-num).ToString();
+                MessageBox.Show("Invalid input. Please enter a numeric value.");
+                return;
             }
-            else if (double.TryParse(txbResult.Text, out num))
-            {
-                txbResult.Text = (-num).ToString();
-            }
-        }
 
+            txbResult.Text = result.ToString();
+            txbInput.Clear();
+        }
         private void SetOperation(string op)
         {
             if (double.TryParse(txbInput.Text, out num1))
@@ -121,62 +109,8 @@ namespace Calculator
             }
         }
 
-
-
-        private void ProcessInput(Func<double, double> operation)
-        {
-            if (double.TryParse(txbInput.Text, out num1))            
-                result = operation(num1);            
-            else if (double.TryParse(txbResult.Text, out num1))            
-                result = operation(num1);
-            else
-            {
-                MessageBox.Show("Invalid input. Please enter a numeric value.");
-                return;
-            }
-
-            txbResult.Text = result.ToString();
-            txbInput.Clear();
-        }
-
-        private void btnSqrt_Click(object sender, EventArgs e)
-        {
-            ProcessInput(Math.Sqrt);
-        }
-
-
-
-        private void btnClearEntry_Click(object sender, EventArgs e)
-        {
-            txbInput.Clear();
-            txbResult.Clear();
-        }
-
-        private void progToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            foreach (Control control in this.Controls)
-            {
-                control.Visible = false;
-            }
-            programmer.Visible = true;
-
-        }
-
-        private void classicToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            programmer.Visible = false; 
-            foreach (Control control in this.Controls)
-            {
-                if (control is not Programmer) 
-                {
-                    control.Visible = true; 
-                }
-            }
-        }
-
-        private void txbInput_TextChanged(object sender, EventArgs e)
-        {
-
-        }
+        
     }
+
+
 }

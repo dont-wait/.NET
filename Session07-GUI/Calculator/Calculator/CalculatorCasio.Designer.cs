@@ -50,19 +50,24 @@
             btnDeleteOneCharacter = new Button();
             btnClear = new Button();
             btnPercent = new Button();
-            txtResult = new TextBox();
+            txbInput = new TextBox();
             btnTwo = new Button();
             label1 = new Label();
-            txtResultFinal = new TextBox();
+            txbResult = new TextBox();
             btnClearEntry = new Button();
+            menuStrip1 = new MenuStrip();
+            mnsOption = new ToolStripMenuItem();
+            classicToolStripMenuItem = new ToolStripMenuItem();
+            menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
             // btnOne
             // 
             btnOne.BackColor = Color.White;
-            btnOne.Location = new Point(12, 326);
+            btnOne.Font = new Font("Segoe UI", 15F, FontStyle.Bold);
+            btnOne.Location = new Point(94, 544);
             btnOne.Name = "btnOne";
-            btnOne.Size = new Size(71, 43);
+            btnOne.Size = new Size(118, 66);
             btnOne.TabIndex = 1;
             btnOne.Text = "1";
             btnOne.UseVisualStyleBackColor = false;
@@ -71,9 +76,10 @@
             // btnThree
             // 
             btnThree.BackColor = Color.White;
-            btnThree.Location = new Point(166, 326);
+            btnThree.Font = new Font("Segoe UI", 15F, FontStyle.Bold);
+            btnThree.Location = new Point(342, 544);
             btnThree.Name = "btnThree";
-            btnThree.Size = new Size(71, 43);
+            btnThree.Size = new Size(118, 66);
             btnThree.TabIndex = 3;
             btnThree.Text = "3";
             btnThree.UseVisualStyleBackColor = false;
@@ -82,9 +88,10 @@
             // btnNine
             // 
             btnNine.BackColor = Color.White;
-            btnNine.Location = new Point(166, 228);
+            btnNine.Font = new Font("Segoe UI", 15F, FontStyle.Bold);
+            btnNine.Location = new Point(342, 400);
             btnNine.Name = "btnNine";
-            btnNine.Size = new Size(71, 43);
+            btnNine.Size = new Size(118, 66);
             btnNine.TabIndex = 6;
             btnNine.Text = "9";
             btnNine.UseVisualStyleBackColor = false;
@@ -93,9 +100,10 @@
             // btnEight
             // 
             btnEight.BackColor = Color.White;
-            btnEight.Location = new Point(89, 228);
+            btnEight.Font = new Font("Segoe UI", 15F, FontStyle.Bold);
+            btnEight.Location = new Point(218, 400);
             btnEight.Name = "btnEight";
-            btnEight.Size = new Size(71, 43);
+            btnEight.Size = new Size(118, 66);
             btnEight.TabIndex = 5;
             btnEight.Text = "8";
             btnEight.UseVisualStyleBackColor = false;
@@ -104,9 +112,10 @@
             // btnSeven
             // 
             btnSeven.BackColor = Color.White;
-            btnSeven.Location = new Point(12, 228);
+            btnSeven.Font = new Font("Segoe UI", 15F, FontStyle.Bold);
+            btnSeven.Location = new Point(94, 400);
             btnSeven.Name = "btnSeven";
-            btnSeven.Size = new Size(71, 43);
+            btnSeven.Size = new Size(118, 66);
             btnSeven.TabIndex = 4;
             btnSeven.Text = "7";
             btnSeven.UseVisualStyleBackColor = false;
@@ -115,9 +124,10 @@
             // btnSix
             // 
             btnSix.BackColor = Color.White;
-            btnSix.Location = new Point(166, 277);
+            btnSix.Font = new Font("Segoe UI", 15F, FontStyle.Bold);
+            btnSix.Location = new Point(342, 472);
             btnSix.Name = "btnSix";
-            btnSix.Size = new Size(71, 43);
+            btnSix.Size = new Size(118, 66);
             btnSix.TabIndex = 12;
             btnSix.Text = "6";
             btnSix.UseVisualStyleBackColor = false;
@@ -126,9 +136,10 @@
             // btnFive
             // 
             btnFive.BackColor = Color.White;
-            btnFive.Location = new Point(89, 277);
+            btnFive.Font = new Font("Segoe UI", 15F, FontStyle.Bold);
+            btnFive.Location = new Point(218, 472);
             btnFive.Name = "btnFive";
-            btnFive.Size = new Size(71, 43);
+            btnFive.Size = new Size(118, 66);
             btnFive.TabIndex = 11;
             btnFive.Text = "5";
             btnFive.UseVisualStyleBackColor = false;
@@ -137,9 +148,10 @@
             // btnFour
             // 
             btnFour.BackColor = Color.White;
-            btnFour.Location = new Point(12, 277);
+            btnFour.Font = new Font("Segoe UI", 15F, FontStyle.Bold);
+            btnFour.Location = new Point(94, 472);
             btnFour.Name = "btnFour";
-            btnFour.Size = new Size(71, 43);
+            btnFour.Size = new Size(118, 66);
             btnFour.TabIndex = 10;
             btnFour.Text = "4";
             btnFour.UseVisualStyleBackColor = false;
@@ -148,9 +160,10 @@
             // btnPoint
             // 
             btnPoint.BackColor = Color.Yellow;
-            btnPoint.Location = new Point(166, 372);
+            btnPoint.Font = new Font("Segoe UI", 15F, FontStyle.Bold);
+            btnPoint.Location = new Point(342, 616);
             btnPoint.Name = "btnPoint";
-            btnPoint.Size = new Size(71, 43);
+            btnPoint.Size = new Size(118, 66);
             btnPoint.TabIndex = 15;
             btnPoint.Text = ".";
             btnPoint.UseVisualStyleBackColor = false;
@@ -159,9 +172,10 @@
             // btnZero
             // 
             btnZero.BackColor = Color.White;
-            btnZero.Location = new Point(89, 372);
+            btnZero.Font = new Font("Segoe UI", 15F, FontStyle.Bold);
+            btnZero.Location = new Point(218, 616);
             btnZero.Name = "btnZero";
-            btnZero.Size = new Size(71, 43);
+            btnZero.Size = new Size(118, 66);
             btnZero.TabIndex = 14;
             btnZero.Text = "0";
             btnZero.UseVisualStyleBackColor = false;
@@ -170,9 +184,10 @@
             // btnChangeOpposite
             // 
             btnChangeOpposite.BackColor = Color.Yellow;
-            btnChangeOpposite.Location = new Point(12, 372);
+            btnChangeOpposite.Font = new Font("Segoe UI", 15F, FontStyle.Bold);
+            btnChangeOpposite.Location = new Point(94, 616);
             btnChangeOpposite.Name = "btnChangeOpposite";
-            btnChangeOpposite.Size = new Size(71, 43);
+            btnChangeOpposite.Size = new Size(118, 66);
             btnChangeOpposite.TabIndex = 13;
             btnChangeOpposite.Text = "+/-";
             btnChangeOpposite.UseVisualStyleBackColor = false;
@@ -181,9 +196,10 @@
             // btnProduct
             // 
             btnProduct.BackColor = Color.Yellow;
-            btnProduct.Location = new Point(243, 228);
+            btnProduct.Font = new Font("Segoe UI", 15F, FontStyle.Bold);
+            btnProduct.Location = new Point(466, 400);
             btnProduct.Name = "btnProduct";
-            btnProduct.Size = new Size(71, 43);
+            btnProduct.Size = new Size(118, 66);
             btnProduct.TabIndex = 16;
             btnProduct.Text = "*";
             btnProduct.UseVisualStyleBackColor = false;
@@ -192,9 +208,10 @@
             // btnEqual
             // 
             btnEqual.BackColor = Color.Yellow;
-            btnEqual.Location = new Point(243, 372);
+            btnEqual.Font = new Font("Segoe UI", 15F, FontStyle.Bold);
+            btnEqual.Location = new Point(466, 616);
             btnEqual.Name = "btnEqual";
-            btnEqual.Size = new Size(71, 43);
+            btnEqual.Size = new Size(118, 66);
             btnEqual.TabIndex = 17;
             btnEqual.Text = "=";
             btnEqual.UseVisualStyleBackColor = false;
@@ -203,9 +220,10 @@
             // btnAdd
             // 
             btnAdd.BackColor = Color.Yellow;
-            btnAdd.Location = new Point(243, 326);
+            btnAdd.Font = new Font("Segoe UI", 15F, FontStyle.Bold);
+            btnAdd.Location = new Point(466, 544);
             btnAdd.Name = "btnAdd";
-            btnAdd.Size = new Size(71, 43);
+            btnAdd.Size = new Size(118, 66);
             btnAdd.TabIndex = 18;
             btnAdd.Text = "+";
             btnAdd.UseVisualStyleBackColor = false;
@@ -214,9 +232,10 @@
             // btnSubtract
             // 
             btnSubtract.BackColor = Color.Yellow;
-            btnSubtract.Location = new Point(243, 277);
+            btnSubtract.Font = new Font("Segoe UI", 15F, FontStyle.Bold);
+            btnSubtract.Location = new Point(466, 472);
             btnSubtract.Name = "btnSubtract";
-            btnSubtract.Size = new Size(71, 43);
+            btnSubtract.Size = new Size(118, 66);
             btnSubtract.TabIndex = 19;
             btnSubtract.Text = "-";
             btnSubtract.UseVisualStyleBackColor = false;
@@ -225,9 +244,10 @@
             // btnDivide
             // 
             btnDivide.BackColor = Color.Yellow;
-            btnDivide.Location = new Point(243, 179);
+            btnDivide.Font = new Font("Segoe UI", 15F, FontStyle.Bold);
+            btnDivide.Location = new Point(466, 328);
             btnDivide.Name = "btnDivide";
-            btnDivide.Size = new Size(71, 43);
+            btnDivide.Size = new Size(118, 66);
             btnDivide.TabIndex = 23;
             btnDivide.Text = "/";
             btnDivide.UseVisualStyleBackColor = false;
@@ -236,9 +256,10 @@
             // btnSqrt
             // 
             btnSqrt.BackColor = Color.Yellow;
-            btnSqrt.Location = new Point(166, 179);
+            btnSqrt.Font = new Font("Segoe UI", 15F, FontStyle.Bold);
+            btnSqrt.Location = new Point(342, 328);
             btnSqrt.Name = "btnSqrt";
-            btnSqrt.Size = new Size(71, 43);
+            btnSqrt.Size = new Size(118, 66);
             btnSqrt.TabIndex = 22;
             btnSqrt.Text = "√ ";
             btnSqrt.UseVisualStyleBackColor = false;
@@ -247,9 +268,10 @@
             // btnPow
             // 
             btnPow.BackColor = Color.Yellow;
-            btnPow.Location = new Point(89, 179);
+            btnPow.Font = new Font("Segoe UI", 15F, FontStyle.Bold);
+            btnPow.Location = new Point(218, 328);
             btnPow.Name = "btnPow";
-            btnPow.Size = new Size(71, 43);
+            btnPow.Size = new Size(118, 66);
             btnPow.TabIndex = 21;
             btnPow.Text = "x^2";
             btnPow.UseVisualStyleBackColor = false;
@@ -258,9 +280,10 @@
             // btnOneDivideNumber
             // 
             btnOneDivideNumber.BackColor = Color.Yellow;
-            btnOneDivideNumber.Location = new Point(12, 179);
+            btnOneDivideNumber.Font = new Font("Segoe UI", 15F, FontStyle.Bold);
+            btnOneDivideNumber.Location = new Point(94, 328);
             btnOneDivideNumber.Name = "btnOneDivideNumber";
-            btnOneDivideNumber.Size = new Size(71, 43);
+            btnOneDivideNumber.Size = new Size(118, 66);
             btnOneDivideNumber.TabIndex = 20;
             btnOneDivideNumber.Text = "1/x";
             btnOneDivideNumber.UseVisualStyleBackColor = false;
@@ -269,9 +292,10 @@
             // btnDeleteOneCharacter
             // 
             btnDeleteOneCharacter.BackColor = Color.Yellow;
-            btnDeleteOneCharacter.Location = new Point(243, 130);
+            btnDeleteOneCharacter.Font = new Font("Segoe UI", 15F, FontStyle.Bold);
+            btnDeleteOneCharacter.Location = new Point(466, 256);
             btnDeleteOneCharacter.Name = "btnDeleteOneCharacter";
-            btnDeleteOneCharacter.Size = new Size(71, 43);
+            btnDeleteOneCharacter.Size = new Size(118, 66);
             btnDeleteOneCharacter.TabIndex = 31;
             btnDeleteOneCharacter.Text = "x";
             btnDeleteOneCharacter.UseVisualStyleBackColor = false;
@@ -280,10 +304,10 @@
             // btnClear
             // 
             btnClear.BackColor = Color.Yellow;
-            btnClear.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            btnClear.Location = new Point(166, 130);
+            btnClear.Font = new Font("Segoe UI", 15F, FontStyle.Bold);
+            btnClear.Location = new Point(342, 256);
             btnClear.Name = "btnClear";
-            btnClear.Size = new Size(71, 43);
+            btnClear.Size = new Size(118, 66);
             btnClear.TabIndex = 30;
             btnClear.Text = "C";
             btnClear.UseVisualStyleBackColor = false;
@@ -292,31 +316,35 @@
             // btnPercent
             // 
             btnPercent.BackColor = Color.Yellow;
-            btnPercent.Location = new Point(12, 130);
+            btnPercent.Font = new Font("Segoe UI", 15F, FontStyle.Bold);
+            btnPercent.Location = new Point(94, 256);
             btnPercent.Name = "btnPercent";
-            btnPercent.Size = new Size(71, 43);
+            btnPercent.Size = new Size(118, 66);
             btnPercent.TabIndex = 28;
             btnPercent.Text = "%";
             btnPercent.UseVisualStyleBackColor = false;
             btnPercent.Click += btnPercent_Click;
             // 
-            // txtResult
+            // txbInput
             // 
-            txtResult.BackColor = Color.White;
-            txtResult.Location = new Point(12, 12);
-            txtResult.Multiline = true;
-            txtResult.Name = "txtResult";
-            txtResult.Size = new Size(302, 32);
-            txtResult.TabIndex = 32;
-            txtResult.Text = "0";
-            txtResult.TextAlign = HorizontalAlignment.Right;
+            txbInput.BackColor = Color.White;
+            txbInput.Font = new Font("Segoe UI", 15F, FontStyle.Bold);
+            txbInput.Location = new Point(94, 107);
+            txbInput.Multiline = true;
+            txbInput.Name = "txbInput";
+            txbInput.Size = new Size(490, 80);
+            txbInput.TabIndex = 32;
+            txbInput.Text = "0";
+            txbInput.TextAlign = HorizontalAlignment.Right;
+            txbInput.TextChanged += txbInput_TextChanged;
             // 
             // btnTwo
             // 
             btnTwo.BackColor = Color.White;
-            btnTwo.Location = new Point(89, 326);
+            btnTwo.Font = new Font("Segoe UI", 15F, FontStyle.Bold);
+            btnTwo.Location = new Point(218, 544);
             btnTwo.Name = "btnTwo";
-            btnTwo.Size = new Size(71, 43);
+            btnTwo.Size = new Size(118, 66);
             btnTwo.TabIndex = 33;
             btnTwo.Text = "2";
             btnTwo.UseVisualStyleBackColor = false;
@@ -326,43 +354,70 @@
             // 
             label1.AutoSize = true;
             label1.BackColor = Color.FromArgb(255, 255, 128);
-            label1.Location = new Point(12, 437);
+            label1.Font = new Font("Segoe UI", 15F, FontStyle.Bold);
+            label1.Location = new Point(94, 701);
             label1.Name = "label1";
-            label1.Size = new Size(85, 20);
+            label1.Size = new Size(142, 35);
             label1.TabIndex = 34;
             label1.Text = "©dontwait";
             // 
-            // txtResultFinal
+            // txbResult
             // 
-            txtResultFinal.BackColor = Color.White;
-            txtResultFinal.Location = new Point(12, 43);
-            txtResultFinal.Multiline = true;
-            txtResultFinal.Name = "txtResultFinal";
-            txtResultFinal.Size = new Size(302, 37);
-            txtResultFinal.TabIndex = 35;
-            txtResultFinal.TextAlign = HorizontalAlignment.Right;
+            txbResult.BackColor = Color.White;
+            txbResult.Font = new Font("Segoe UI", 15F, FontStyle.Bold);
+            txbResult.Location = new Point(94, 154);
+            txbResult.Multiline = true;
+            txbResult.Name = "txbResult";
+            txbResult.Size = new Size(490, 85);
+            txbResult.TabIndex = 35;
+            txbResult.TextAlign = HorizontalAlignment.Right;
             // 
             // btnClearEntry
             // 
             btnClearEntry.BackColor = Color.Yellow;
-            btnClearEntry.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            btnClearEntry.Location = new Point(89, 130);
+            btnClearEntry.Font = new Font("Segoe UI", 15F, FontStyle.Bold);
+            btnClearEntry.Location = new Point(218, 256);
             btnClearEntry.Name = "btnClearEntry";
-            btnClearEntry.Size = new Size(71, 43);
+            btnClearEntry.Size = new Size(118, 66);
             btnClearEntry.TabIndex = 37;
             btnClearEntry.Text = "CE";
             btnClearEntry.UseVisualStyleBackColor = false;
             btnClearEntry.Click += btnClearEntry_Click;
             // 
+            // menuStrip1
+            // 
+            menuStrip1.ImageScalingSize = new Size(20, 20);
+            menuStrip1.Items.AddRange(new ToolStripItem[] { mnsOption, classicToolStripMenuItem });
+            menuStrip1.Location = new Point(0, 0);
+            menuStrip1.Name = "menuStrip1";
+            menuStrip1.Size = new Size(749, 28);
+            menuStrip1.TabIndex = 38;
+            menuStrip1.Text = "menuStrip1";
+            // 
+            // mnsOption
+            // 
+            mnsOption.Name = "mnsOption";
+            mnsOption.Size = new Size(106, 24);
+            mnsOption.Text = "Programmer";
+            mnsOption.Click += progToolStripMenuItem_Click;
+            // 
+            // classicToolStripMenuItem
+            // 
+            classicToolStripMenuItem.Name = "classicToolStripMenuItem";
+            classicToolStripMenuItem.Size = new Size(67, 24);
+            classicToolStripMenuItem.Text = "Classic";
+            classicToolStripMenuItem.Click += classicToolStripMenuItem_Click;
+            // 
             // CalculatorCasio
             // 
+            AutoValidate = AutoValidate.EnablePreventFocusChange;
             BackColor = Color.Red;
-            ClientSize = new Size(340, 466);
+            ClientSize = new Size(749, 809);
             Controls.Add(btnClearEntry);
-            Controls.Add(txtResultFinal);
+            Controls.Add(txbResult);
             Controls.Add(label1);
             Controls.Add(btnTwo);
-            Controls.Add(txtResult);
+            Controls.Add(txbInput);
             Controls.Add(btnDeleteOneCharacter);
             Controls.Add(btnClear);
             Controls.Add(btnPercent);
@@ -385,9 +440,15 @@
             Controls.Add(btnSeven);
             Controls.Add(btnThree);
             Controls.Add(btnOne);
-            Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            Controls.Add(menuStrip1);
+            Font = new Font("Segoe UI", 15F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            MainMenuStrip = menuStrip1;
             Name = "CalculatorCasio";
+            RightToLeft = RightToLeft.No;
+            Text = "Casio590VNX";
             Load += Form1_Load;
+            menuStrip1.ResumeLayout(false);
+            menuStrip1.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -416,10 +477,13 @@
         private Button btnDeleteOneCharacter;
         private Button btnClear;
         private Button btnPercent;
-        private TextBox txtResult;
+        private TextBox txbInput;
         private Button btnTwo;
         private Label label1;
-        private TextBox txtResultFinal;
+        private TextBox txbResult;
         private Button btnClearEntry;
+        private MenuStrip menuStrip1;
+        private ToolStripMenuItem mnsOption;
+        private ToolStripMenuItem classicToolStripMenuItem;
     }
 }

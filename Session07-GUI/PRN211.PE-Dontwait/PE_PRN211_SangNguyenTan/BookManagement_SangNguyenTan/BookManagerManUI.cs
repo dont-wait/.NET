@@ -15,20 +15,6 @@ namespace BookManagement_SangNguyenTan
             InitializeComponent();
         }
 
-        private void lblHeader_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
 
         public void BookManagerManUI_Load(object sender, EventArgs e)
         {
@@ -52,11 +38,6 @@ namespace BookManagement_SangNguyenTan
             if (anwser == DialogResult.Yes)
                 Application.Exit();
         }
-
-        //private void dgvBookList_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        //{
-
-        //}
 
         private void btnCreate_Click(object sender, EventArgs e)
         {
@@ -91,13 +72,13 @@ namespace BookManagement_SangNguyenTan
 
         private void btnUpdate_Click(object sender, EventArgs e)
         {
+
             if (_selected != null)
             { //người dùng phải chọn 1 dòng trong Grd
                 BookDetailForm f = new BookDetailForm(); //trong đây có đặc tính selectedBook
                                                          //đưa sách sang
                 f.SelectedBook = _selected;
                 f.ShowDialog();
-
             }
             else
                 MessageBox.Show("Please select a certain book to edit!", "Select one book", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);

@@ -245,6 +245,7 @@
             cboBookCategoryId.Name = "cboBookCategoryId";
             cboBookCategoryId.Size = new Size(178, 29);
             cboBookCategoryId.TabIndex = 7;
+            cboBookCategoryId.SelectedIndexChanged += cboBookCategoryId_SelectedIndexChanged;
             // 
             // grbBookInfo
             // 

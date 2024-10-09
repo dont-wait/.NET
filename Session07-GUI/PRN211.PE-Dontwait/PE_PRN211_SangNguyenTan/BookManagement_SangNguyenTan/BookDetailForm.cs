@@ -37,7 +37,10 @@ namespace BookManagement_SangNguyenTan
             //   EDIT VÀO CÁC Ô TƯƠNG ỨNG
             //3. NẾU LÀ TẠO MỚI CUỐN SÁCH THÌ CỨ ĐỂ MÀN HÌNH TRẮNG TRƠN V ĐÓ
             //CHỜ USER NHẬP - KO CẦN LÀM GÌ THÊM
-
+            //if (SelectedBook == null)
+            //    lblHeader.Text = "Add a new book";
+            //else
+            //    lblHeader.Text = "Update a book";
             //đổ full data vào cbo
             BookCategoryService cat = new BookCategoryService();
             cboBookCategoryId.DataSource = cat.GetAllCategories();  //hàm số II 
@@ -60,17 +63,29 @@ namespace BookManagement_SangNguyenTan
             //NẾU CÓ SÁCH THÌ FILL VÀO CÁC Ô
             if (SelectedBook != null)
             {
+                lblHeader.Text = "Update a book...";
+                
                 txtBookId.Text = SelectedBook.BookId.ToString();
+                txtBookId.Enabled = false; //KO CHO EDIT MA CUON SACH 
+                
                 txtBookName.Text = SelectedBook.BookName;
+                
                 txtAuthor.Text = SelectedBook.Author;
-                dtpPublicationDate.Text = SelectedBook.PublicationDate.ToString();
+                
                 txtDescription.Text = SelectedBook.Description;
-                //...
+                
+                txtPrice.Text = SelectedBook.Price.ToString();
+                
+                txtQuantity.Text = SelectedBook.Quantity.ToString();
+                
+                dtpPublicationDate.Value = SelectedBook.PublicationDate;
+                
                 cboBookCategoryId.SelectedValue =
                     SelectedBook.BookCategoryId;//default với mình 
                 //tuỳ sách cate gì thì jump đên số đó!!!
-
             }
+            else
+                lblHeader.Text = "Create a new book...";
         }
 
         private void btnSave_Click(object sender, EventArgs e)
@@ -81,6 +96,11 @@ namespace BookManagement_SangNguyenTan
         private void btnCancel_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void cboBookCategoryId_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
