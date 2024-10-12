@@ -83,6 +83,7 @@ namespace BookManagement_SangNguyenTan
                 cboBookCategoryId.SelectedValue =
                     SelectedBook.BookCategoryId;//default với mình 
                 //tuỳ sách cate gì thì jump đên số đó!!!
+
             }
             else
                 lblHeader.Text = "Create a new book...";
@@ -90,7 +91,34 @@ namespace BookManagement_SangNguyenTan
 
         private void btnSave_Click(object sender, EventArgs e)
         {
-
+            //ta phải new một cuốn sách với các info từ ô text
+            //gõ ô text để update hoặc tạo mới, thì rõ ràng là phải đưa ô text vào một cuốn sách
+            //ko care sách mới hay cũ, phải new trong Ram cái đã
+            //nếu là sách cũ edit mode thì cuốn sách new có id của Book Selected
+            //nếu là sách ADD MODE, thì cuốn này có cái ID mới và mong nó không trùng id đám sách cũ đang có -> INSERT XUỐNG DB
+            Book book = new Book()
+            {
+                BookId = int.Parse(txtBookId.Text),
+                BookName = txtBookName.Text,
+                Description = txtDescription.Text,
+                PublicationDate = dtpPublicationDate.Value,
+                Quantity = int.Parse(txtQuantity.Text),
+                Price = double.Parse(txtPrice.Text),
+                Author = txtAuthor.Text,
+                BookCategoryId = int.Parse(cboBookCategoryId.SelectedValue.ToString())
+            };
+            //Object initiazation
+            //gửi xuống DB qua BOOKSERVICE  
+            BookService service = new();
+            //check mode EDIT HAY NEW
+            if (SelectedBook != null) //flag variable 
+                service.UpdateBookFromUI(book);
+            else 
+                service.AddBookFromUI(book);
+            //cho dù new/hay edit thì xong phải tắt form cái màn hình này
+            Close();    // hàm của class Cha Form
+            //Đóng màn hình Detail thì phải F5 cái lướt grid
+            //bên Main Form phải refresh lưới ở ngây chỗ sau Detail
         }
 
         private void btnCancel_Click(object sender, EventArgs e)

@@ -246,7 +246,9 @@
             Controls.Add(grbSearchCriteria);
             Controls.Add(lblHeader);
             Margin = new Padding(3, 4, 3, 4);
+            MinimizeBox = false;
             Name = "BookManagerManUI";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Book Manager";
             Load += BookManagerManUI_Load;
             grbSearchCriteria.ResumeLayout(false);

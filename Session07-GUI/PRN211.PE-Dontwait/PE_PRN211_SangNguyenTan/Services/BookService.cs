@@ -8,7 +8,7 @@ namespace Services
     //[1]                   [2]                         [3]                         SQL SERVER
     //UI-FORMs      ------ Services      ----------- Repositories --------------        DB
     //MainUI        ------ BookService               BookRepository (Book Entity)     Book Table
-    //    request/response                  <------>
+    //    request/response          <------>
     //đưa data xuống DB                                 chơi trực tiếp với DB: lên, xuống 
     //lấy data từ DB show                                                      CRUD table thực sự
     //              RAM                                                 DB ĐĨA CỨNG HDD/SSD
@@ -38,5 +38,21 @@ namespace Services
         {
             return _repo.GetBooks();
         }
+
+        public void AddBookFromUI(Book book) { 
+            _repo.AddBook(book); //chuyền banh, từ UI -> Service -> Repo -> Dbcontext
+        } //Đều gì xảy ra nếu trùng key
+          //CHALLENGE: CHAT GPT -> how to handle duplicate of PK exeption during creating a book in BookManagement app
+          //using Entity Framework Core in C#
+        
+        public void UpdateBookFromUI(Book book)
+        {
+            _repo.UpdateBook(book); 
+        }
+        public void DeleteBookFromUI(Book book) { 
+            _repo.RemoveBook(book);
+        }
+
+        //hàm tạo mới cuốn sách lấy từ UI đẩy thẳng xuống cho Repo giúp, Repo lại bán cái cho Dbcontext
     }
 }

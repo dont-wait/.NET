@@ -6,29 +6,57 @@ namespace BookManagement_SangNguyenTan
 {
     public partial class BookManagerManUI : Form
     {
+        private BookService _service = new BookService();
+
         //backing field
         private Book _selected = null; // chờ ai đó chọn 1 dòng trong grid/table
                                        // thì nó được gán bằng = cuốn sách đang được chọn
                                        //đẩy cuốn sách này qua màn hình update
+
         public BookManagerManUI()
         {
             InitializeComponent();
         }
 
-
+        //hàm dùng nội bộ gọi là Helper
+        private void FillDataGridView()
+        {
+            dgvBookList.DataSource = null;  //xoá trắng grid
+            dgvBookList.DataSource = _service.GetAllBooks();    //nhờ service đọc xuống DB(đi nhờ Repo)
+        }
         public void BookManagerManUI_Load(object sender, EventArgs e)
         {
             //gọi Services để cung cấp data vào grid/table
-            BookService bookService = new BookService();
-
-            dgvBookList.DataSource = null;  //xoá trắng grid
-            dgvBookList.DataSource = bookService.GetAllBooks();
+            FillDataGridView();
+            //dgvBookList.DataSource = null;  //xoá trắng grid
+            //dgvBookList.DataSource = _service.GetAllBooks();
             //                      hàm I trả về all books
 
-        }
-
+        }   //Bad Smells - Robert C.Martin - Clean Code, SOLID, Agile Manifesco
+            //HÀM FILL DATA VÀO GRID ĐC GỌI NHIỀU LẦN Ở NÚT CREATE, , UPDATE, DELETE, LOAD FORM
         private void btnDelete_Click(object sender, EventArgs e)
         {
+            if (_selected == null)
+            {
+                MessageBox.Show("Please select a certain book to delete!", "Select one book", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                return;
+            }
+            //ko thoát hàm tức đã chọn dòng
+            //nhờ _service xoá dùm
+            DialogResult anwser = MessageBox.Show("Do you really to delete this book", "Delete Confirm?", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            
+            if(anwser == DialogResult.No)
+            {
+                return;
+            }
+
+            //sure YES thì xoá
+            _service.DeleteBookFromUI(_selected); //thay vì đẩy Book sang Detail Form thì nay ta đẩy xuống hàm xoá
+            //F5
+            FillDataGridView();
+
+            //VIP???
+            _selected = null;
 
         }
 
@@ -47,7 +75,8 @@ namespace BookManagement_SangNguyenTan
             BookDetailForm f = new BookDetailForm();
             //f.Show(); nguy hiểm vì cứ new là có object, là có cửa sổ mới
             f.ShowDialog(); //render đi em 
-
+            //f5 lướt
+            FillDataGridView();
         }
 
         private void dgvBookList_SelectionChanged(object sender, EventArgs e)
@@ -79,6 +108,7 @@ namespace BookManagement_SangNguyenTan
                                                          //đưa sách sang
                 f.SelectedBook = _selected;
                 f.ShowDialog();
+                FillDataGridView();
             }
             else
                 MessageBox.Show("Please select a certain book to edit!", "Select one book", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
@@ -94,6 +124,7 @@ namespace BookManagement_SangNguyenTan
             //dgvBookList.DataSource = books.Where(x => true).ToList(); // đưa cuốn nào cx đồng ý hết
             dgvBookList.DataSource = books.Where(x => 
                     x.BookName.ToLower().Contains(txtBookName.Text.ToLower()) || x.Description.ToLower().Contains(txtDescription.Text.ToLower())).ToList();
+            
         }
     }
 }
